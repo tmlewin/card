@@ -1,0 +1,47 @@
+Day 2 Course
+
+programming is about problem solving, data manipulation, algorithm, input and output
+
+How to do problem solving
+Break it down into smaller pieces
+
+identify the problem
+indentify the goal
+
+Analyze the problems
+
+bits and bytes  = bit is the smallest unit of data stored in a pc memory
+1 bit is stored in 0 and 1 - This is stored using transistors  on the hardware
+ switch 1= on , 0=  off
+
+ 1000 = 8(binary) 
+ to caclulate by using index postion   raise to power * number
+
+ ASCII
+ a,b,c,d,e mapped numbers to letters
+
+ A= 65 a = 97
+ HI! = 72 73 33
+
+ it broken into 8 blocks ranging from 128 -1
+
+ 128,64,32,16,8,4,2,1 => 0 - 7
+
+100111011000011100001
+
+Hexadecimals
+
+0-9, A-H;
+F= 15 in decimal
+
+220 in base 10 
+
+8F= 143(base16)=> to binary = 10001111
+
+decimal -10 base
+binary - base 2
+hex = 16 base
+
+
+
+

@@ -1,0 +1,2082 @@
+[
+  {
+    "FilmID": 138,
+    "FilmName": "Kill Bill: Vol. 2",
+    "FilmBudgetDollars": 55000000,
+    "FilmBoxOfficeDollars": 150907920,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$95907920"
+  },
+  {
+    "FilmID": 70,
+    "FilmName": "Gangs of New York",
+    "FilmBudgetDollars": 97000000,
+    "FilmBoxOfficeDollars": 190400000,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$93400000"
+  },
+  {
+    "FilmID": 259,
+    "FilmName": "King Kong",
+    "FilmBudgetDollars": 670000,
+    "FilmBoxOfficeDollars": 10000000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$9330000"
+  },
+  {
+    "FilmID": 21,
+    "FilmName": "Pirates of the Caribbean: Dead Man's Chest",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 1065659812,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$915659812"
+  },
+  {
+    "FilmID": 242,
+    "FilmName": "The Man with the Golden Gun",
+    "FilmBudgetDollars": 7000000,
+    "FilmBoxOfficeDollars": 97600000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$90600000"
+  },
+  {
+    "FilmID": 99,
+    "FilmName": "Talladega Nights: The Ballad of Ricky Bobby",
+    "FilmBudgetDollars": 73000000,
+    "FilmBoxOfficeDollars": 163213377,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$90213377"
+  },
+  {
+    "FilmID": 8,
+    "FilmName": "Waterworld",
+    "FilmBudgetDollars": 175000000,
+    "FilmBoxOfficeDollars": 264246220,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$89246220"
+  },
+  {
+    "FilmID": 140,
+    "FilmName": "Flags of our Fathers",
+    "FilmBudgetDollars": 53000000,
+    "FilmBoxOfficeDollars": 61902376,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$8902376"
+  },
+  {
+    "FilmID": 147,
+    "FilmName": "Blade",
+    "FilmBudgetDollars": 45000000,
+    "FilmBoxOfficeDollars": 131237688,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$86237688"
+  },
+  {
+    "FilmID": 1,
+    "FilmName": "Jurassic Park",
+    "FilmBudgetDollars": 63000000,
+    "FilmBoxOfficeDollars": 920100000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$857100000"
+  },
+  {
+    "FilmID": 38,
+    "FilmName": "Harry Potter and the Philosopher's Stone",
+    "FilmBudgetDollars": 125000000,
+    "FilmBoxOfficeDollars": 976457891,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$851457891"
+  },
+  {
+    "FilmID": 225,
+    "FilmName": "Star Trek II: The Wrath of Khan",
+    "FilmBudgetDollars": 12000000,
+    "FilmBoxOfficeDollars": 96800000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$84800000"
+  },
+  {
+    "FilmID": 168,
+    "FilmName": "Get Shorty",
+    "FilmBudgetDollars": 30250000,
+    "FilmBoxOfficeDollars": 115021008,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$84771008"
+  },
+  {
+    "FilmID": 105,
+    "FilmName": "Shrek 2",
+    "FilmBudgetDollars": 70000000,
+    "FilmBoxOfficeDollars": 915278586,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$845278586"
+  },
+  {
+    "FilmID": 74,
+    "FilmName": "The Lord of the Rings: The Two Towers",
+    "FilmBudgetDollars": 94000000,
+    "FilmBoxOfficeDollars": 926284377,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$832284377"
+  },
+  {
+    "FilmID": 160,
+    "FilmName": "Star Trek: Generations",
+    "FilmBudgetDollars": 38000000,
+    "FilmBoxOfficeDollars": 120000000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$82000000"
+  },
+  {
+    "FilmID": 226,
+    "FilmName": "House of Flying Daggers",
+    "FilmBudgetDollars": 12000000,
+    "FilmBoxOfficeDollars": 93041228,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$81041228"
+  },
+  {
+    "FilmID": 48,
+    "FilmName": "Star Wars: Episode I - The Phantom Menace",
+    "FilmBudgetDollars": 115000000,
+    "FilmBoxOfficeDollars": 924288297,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$809288297"
+  },
+  {
+    "FilmID": 14,
+    "FilmName": "Pirates of the Caribbean: At World's End",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 952404152,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$802404152"
+  },
+  {
+    "FilmID": 223,
+    "FilmName": "Downfall",
+    "FilmBudgetDollars": 13500000,
+    "FilmBoxOfficeDollars": 93501940,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$80001940"
+  },
+  {
+    "FilmID": 11,
+    "FilmName": "Harry Potter and the Order of the Phoenix",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 938454486,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$788454486"
+  },
+  {
+    "FilmID": 229,
+    "FilmName": "Star Wars: Episode IV - A New Hope",
+    "FilmBudgetDollars": 11000000,
+    "FilmBoxOfficeDollars": 797900000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$786900000"
+  },
+  {
+    "FilmID": 71,
+    "FilmName": "Black Hawk Down",
+    "FilmBudgetDollars": 95000000,
+    "FilmBoxOfficeDollars": 173638745,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$78638745"
+  },
+  {
+    "FilmID": 230,
+    "FilmName": "E.T.: The Extra-Terrestrial",
+    "FilmBudgetDollars": 10500000,
+    "FilmBoxOfficeDollars": 792910554,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$782410554"
+  },
+  {
+    "FilmID": 65,
+    "FilmName": "Harry Potter and the Chamber of Secrets",
+    "FilmBudgetDollars": 100000000,
+    "FilmBoxOfficeDollars": 878987880,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$778987880"
+  },
+  {
+    "FilmID": 152,
+    "FilmName": "Apocalypto",
+    "FilmBudgetDollars": 40000000,
+    "FilmBoxOfficeDollars": 117784857,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$77784857"
+  },
+  {
+    "FilmID": 256,
+    "FilmName": "From Russia with Love",
+    "FilmBudgetDollars": 2000000,
+    "FilmBoxOfficeDollars": 78900000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$76900000"
+  },
+  {
+    "FilmID": 59,
+    "FilmName": "The Lord of the Rings: Fellowship of the Ring",
+    "FilmBudgetDollars": 109000000,
+    "FilmBoxOfficeDollars": 868621686,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$759621686"
+  },
+  {
+    "FilmID": 18,
+    "FilmName": "Harry Potter and the Goblet of Fire",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 896013036,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$746013036"
+  },
+  {
+    "FilmID": 32,
+    "FilmName": "Master and Commander: The Far Side of the World",
+    "FilmBudgetDollars": 135000000,
+    "FilmBoxOfficeDollars": 209486484,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$74486484"
+  },
+  {
+    "FilmID": 93,
+    "FilmName": "Independence Day",
+    "FilmBudgetDollars": 75000000,
+    "FilmBoxOfficeDollars": 816969255,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$741969255"
+  },
+  {
+    "FilmID": 236,
+    "FilmName": "On Her Majesty's Secret Service",
+    "FilmBudgetDollars": 8000000,
+    "FilmBoxOfficeDollars": 82000000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$74000000"
+  },
+  {
+    "FilmID": 49,
+    "FilmName": "Star Wars: Episode III - Revenge of the Sith",
+    "FilmBudgetDollars": 115000000,
+    "FilmBoxOfficeDollars": 848470577,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$733470577"
+  },
+  {
+    "FilmID": 129,
+    "FilmName": "Star Trek: Nemesis",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 67312826,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$7312826"
+  },
+  {
+    "FilmID": 75,
+    "FilmName": "Rush Hour 3",
+    "FilmBudgetDollars": 180000000,
+    "FilmBoxOfficeDollars": 252980850,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$72980850"
+  },
+  {
+    "FilmID": 227,
+    "FilmName": "Das Boot",
+    "FilmBudgetDollars": 12000000,
+    "FilmBoxOfficeDollars": 84970337,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$72970337"
+  },
+  {
+    "FilmID": 245,
+    "FilmName": "The Terminator",
+    "FilmBudgetDollars": 6400000,
+    "FilmBoxOfficeDollars": 78019031,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$71619031"
+  },
+  {
+    "FilmID": 67,
+    "FilmName": "Blood Diamond",
+    "FilmBudgetDollars": 100000000,
+    "FilmBoxOfficeDollars": 171377916,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$71377916"
+  },
+  {
+    "FilmID": 180,
+    "FilmName": "Star Trek VI: The Undiscovered Country",
+    "FilmBudgetDollars": 27000000,
+    "FilmBoxOfficeDollars": 96900000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$69900000"
+  },
+  {
+    "FilmID": 201,
+    "FilmName": "Star Trek III: The Search For Spock",
+    "FilmBudgetDollars": 18000000,
+    "FilmBoxOfficeDollars": 87000000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$69000000"
+  },
+  {
+    "FilmID": 2,
+    "FilmName": "Spider-Man",
+    "FilmBudgetDollars": 139000000,
+    "FilmBoxOfficeDollars": 821606375,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$682606375"
+  },
+  {
+    "FilmID": 255,
+    "FilmName": "The Lives of Others",
+    "FilmBudgetDollars": 2000000,
+    "FilmBoxOfficeDollars": 70053813,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$68053813"
+  },
+  {
+    "FilmID": 150,
+    "FilmName": "The Prestige",
+    "FilmBudgetDollars": 40000000,
+    "FilmBoxOfficeDollars": 107896006,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$67896006"
+  },
+  {
+    "FilmID": 219,
+    "FilmName": "28 Days Later…",
+    "FilmBudgetDollars": 15000000,
+    "FilmBoxOfficeDollars": 82719885,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$67719885"
+  },
+  {
+    "FilmID": 35,
+    "FilmName": "Harry Potter and the Prisoner of Azkaban",
+    "FilmBudgetDollars": 130000000,
+    "FilmBoxOfficeDollars": 795538952,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$665538952"
+  },
+  {
+    "FilmID": 189,
+    "FilmName": "Anchorman: The Legend of Ron Burgundy",
+    "FilmBudgetDollars": 25000000,
+    "FilmBoxOfficeDollars": 89366354,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$64366354"
+  },
+  {
+    "FilmID": 104,
+    "FilmName": "Shrek the Third",
+    "FilmBudgetDollars": 160000000,
+    "FilmBoxOfficeDollars": 798957081,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$638957081"
+  },
+  {
+    "FilmID": 26,
+    "FilmName": "Spider-Man 3",
+    "FilmBudgetDollars": 258000000,
+    "FilmBoxOfficeDollars": 891930303,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$633930303"
+  },
+  {
+    "FilmID": 37,
+    "FilmName": "The Da Vinci Code",
+    "FilmBudgetDollars": 125000000,
+    "FilmBoxOfficeDollars": 757536138,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$632536138"
+  },
+  {
+    "FilmID": 206,
+    "FilmName": "Hot Fuzz",
+    "FilmBudgetDollars": 16000000,
+    "FilmBoxOfficeDollars": 79192988,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$63192988"
+  },
+  {
+    "FilmID": 127,
+    "FilmName": "Intolerable Cruelty",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 121327628,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$61327628"
+  },
+  {
+    "FilmID": 36,
+    "FilmName": "The Matrix Reloaded",
+    "FilmBudgetDollars": 127000000,
+    "FilmBoxOfficeDollars": 738576929,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$611576929"
+  },
+  {
+    "FilmID": 133,
+    "FilmName": "Man On Fire",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 118706816,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$58706816"
+  },
+  {
+    "FilmID": 186,
+    "FilmName": "The Passion of the Christ",
+    "FilmBudgetDollars": 25000000,
+    "FilmBoxOfficeDollars": 611899420,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$586899420"
+  },
+  {
+    "FilmID": 258,
+    "FilmName": "Dr. No",
+    "FilmBudgetDollars": 1000000,
+    "FilmBoxOfficeDollars": 59567035,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$58567035"
+  },
+  {
+    "FilmID": 27,
+    "FilmName": "Spider-Man 2",
+    "FilmBudgetDollars": 200000000,
+    "FilmBoxOfficeDollars": 784024485,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$584024485"
+  },
+  {
+    "FilmID": 141,
+    "FilmName": "Casino",
+    "FilmBudgetDollars": 52000000,
+    "FilmBoxOfficeDollars": 110400000,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$58400000"
+  },
+  {
+    "FilmID": 196,
+    "FilmName": "From Dusk Till Dawn",
+    "FilmBudgetDollars": 20000000,
+    "FilmBoxOfficeDollars": 25728961,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$5728961"
+  },
+  {
+    "FilmID": 192,
+    "FilmName": "King Kong",
+    "FilmBudgetDollars": 23000000,
+    "FilmBoxOfficeDollars": 80014445,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$57014445"
+  },
+  {
+    "FilmID": 10,
+    "FilmName": "Transformers",
+    "FilmBudgetDollars": 151000000,
+    "FilmBoxOfficeDollars": 707675744,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$556675744"
+  },
+  {
+    "FilmID": 224,
+    "FilmName": "Letters from Iwo Jima",
+    "FilmBudgetDollars": 13000000,
+    "FilmBoxOfficeDollars": 68356082,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$55356082"
+  },
+  {
+    "FilmID": 92,
+    "FilmName": "Munich",
+    "FilmBudgetDollars": 75000000,
+    "FilmBoxOfficeDollars": 130279090,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$55279090"
+  },
+  {
+    "FilmID": 46,
+    "FilmName": "Star Wars: Episode II - Attack of the Clones",
+    "FilmBudgetDollars": 115000000,
+    "FilmBoxOfficeDollars": 656695615,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$541695615"
+  },
+  {
+    "FilmID": 165,
+    "FilmName": "Star Wars: Episode IV - Return of the Jedi",
+    "FilmBudgetDollars": 32500000,
+    "FilmBoxOfficeDollars": 572700000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$540200000"
+  },
+  {
+    "FilmID": 203,
+    "FilmName": "Raging Bull",
+    "FilmBudgetDollars": 18000000,
+    "FilmBoxOfficeDollars": 23380203,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$5380203"
+  },
+  {
+    "FilmID": 40,
+    "FilmName": "Pirates of the Caribbean: Curse of the Black Pearl",
+    "FilmBudgetDollars": 125000000,
+    "FilmBoxOfficeDollars": 655011224,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$530011224"
+  },
+  {
+    "FilmID": 82,
+    "FilmName": "Last Action Hero",
+    "FilmBudgetDollars": 85000000,
+    "FilmBoxOfficeDollars": 137298489,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$52298489"
+  },
+  {
+    "FilmID": 176,
+    "FilmName": "Blade Runner",
+    "FilmBudgetDollars": 28000000,
+    "FilmBoxOfficeDollars": 33139618,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$5139618"
+  },
+  {
+    "FilmID": 187,
+    "FilmName": "The Untouchables",
+    "FilmBudgetDollars": 25000000,
+    "FilmBoxOfficeDollars": 76270454,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$51270454"
+  },
+  {
+    "FilmID": 193,
+    "FilmName": "Star Wars: Episode V - The Empire Strikes Back",
+    "FilmBudgetDollars": 23000000,
+    "FilmBoxOfficeDollars": 534200000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$511200000"
+  },
+  {
+    "FilmID": 77,
+    "FilmName": "Men in Black",
+    "FilmBudgetDollars": 90000000,
+    "FilmBoxOfficeDollars": 589390539,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$499390539"
+  },
+  {
+    "FilmID": 61,
+    "FilmName": "Casino Royale",
+    "FilmBudgetDollars": 102000000,
+    "FilmBoxOfficeDollars": 594165000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$492165000"
+  },
+  {
+    "FilmID": 184,
+    "FilmName": "O Brother, Where Art Thou?",
+    "FilmBudgetDollars": 26000000,
+    "FilmBoxOfficeDollars": 74506619,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$48506619"
+  },
+  {
+    "FilmID": 107,
+    "FilmName": "Star Trek: Insurrection",
+    "FilmBudgetDollars": 70000000,
+    "FilmBoxOfficeDollars": 117800000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$47800000"
+  },
+  {
+    "FilmID": 243,
+    "FilmName": "Good Night, and Good Luck",
+    "FilmBudgetDollars": 7000000,
+    "FilmBoxOfficeDollars": 54601218,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$47601218"
+  },
+  {
+    "FilmID": 16,
+    "FilmName": "Ratatouille",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 617245654,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$467245654"
+  },
+  {
+    "FilmID": 33,
+    "FilmName": "War of the Worlds",
+    "FilmBudgetDollars": 132000000,
+    "FilmBoxOfficeDollars": 591745532,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$459745532"
+  },
+  {
+    "FilmID": 100,
+    "FilmName": "The Simpsons Movie",
+    "FilmBudgetDollars": 72500000,
+    "FilmBoxOfficeDollars": 526758418,
+    "ComputedTime": "SHORT",
+    "FilmProfitLoss": "$454258418"
+  },
+  {
+    "FilmID": 12,
+    "FilmName": "Beowulf",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 194995215,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$44995215"
+  },
+  {
+    "FilmID": 240,
+    "FilmName": "Fargo",
+    "FilmBudgetDollars": 7000000,
+    "FilmBoxOfficeDollars": 51567751,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$44567751"
+  },
+  {
+    "FilmID": 15,
+    "FilmName": "I am Legend",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 583527323,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$433527323"
+  },
+  {
+    "FilmID": 143,
+    "FilmName": "Shrek",
+    "FilmBudgetDollars": 50000000,
+    "FilmBoxOfficeDollars": 479467267,
+    "ComputedTime": "SHORT",
+    "FilmProfitLoss": "$429467267"
+  },
+  {
+    "FilmID": 44,
+    "FilmName": "Mission: Impossible II",
+    "FilmBudgetDollars": 120000000,
+    "FilmBoxOfficeDollars": 546209889,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$426209889"
+  },
+  {
+    "FilmID": 145,
+    "FilmName": "Indiana Jones and the Last Crusade",
+    "FilmBudgetDollars": 48000000,
+    "FilmBoxOfficeDollars": 474171806,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$426171806"
+  },
+  {
+    "FilmID": 182,
+    "FilmName": "Open Range",
+    "FilmBudgetDollars": 26000000,
+    "FilmBoxOfficeDollars": 68293719,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$42293719"
+  },
+  {
+    "FilmID": 39,
+    "FilmName": "The Day After Tomorrow",
+    "FilmBudgetDollars": 125000000,
+    "FilmBoxOfficeDollars": 542740799,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$417740799"
+  },
+  {
+    "FilmID": 63,
+    "FilmName": "Terminator 2: Judgement Day",
+    "FilmBudgetDollars": 100000000,
+    "FilmBoxOfficeDollars": 516816151,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$416816151"
+  },
+  {
+    "FilmID": 114,
+    "FilmName": "Saving Private Ryan",
+    "FilmBudgetDollars": 65000000,
+    "FilmBoxOfficeDollars": 481635085,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$416635085"
+  },
+  {
+    "FilmID": 24,
+    "FilmName": "Armageddon",
+    "FilmBudgetDollars": 140000000,
+    "FilmBoxOfficeDollars": 554600000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$414600000"
+  },
+  {
+    "FilmID": 47,
+    "FilmName": "Monsters, Inc.",
+    "FilmBudgetDollars": 115000000,
+    "FilmBoxOfficeDollars": 525370172,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$410370172"
+  },
+  {
+    "FilmID": 200,
+    "FilmName": "Dances With Wolves",
+    "FilmBudgetDollars": 19000000,
+    "FilmBoxOfficeDollars": 424200000,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$405200000"
+  },
+  {
+    "FilmID": 86,
+    "FilmName": "Bruce Almighty",
+    "FilmBudgetDollars": 81000000,
+    "FilmBoxOfficeDollars": 485004995,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$404004995"
+  },
+  {
+    "FilmID": 174,
+    "FilmName": "Star Trek V: The Final Frontier",
+    "FilmBudgetDollars": 30000000,
+    "FilmBoxOfficeDollars": 70200000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$40200000"
+  },
+  {
+    "FilmID": 128,
+    "FilmName": "300",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 456068181,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$396068181"
+  },
+  {
+    "FilmID": 116,
+    "FilmName": "The Matrix",
+    "FilmBudgetDollars": 65000000,
+    "FilmBoxOfficeDollars": 456500000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$391500000"
+  },
+  {
+    "FilmID": 125,
+    "FilmName": "Hellboy",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 98703901,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$38703901"
+  },
+  {
+    "FilmID": 87,
+    "FilmName": "Mission: Impossible",
+    "FilmBudgetDollars": 80000000,
+    "FilmBoxOfficeDollars": 456481886,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$376481886"
+  },
+  {
+    "FilmID": 197,
+    "FilmName": "Raiders of the Lost Ark",
+    "FilmBudgetDollars": 20000000,
+    "FilmBoxOfficeDollars": 386800358,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$366800358"
+  },
+  {
+    "FilmID": 199,
+    "FilmName": "Back to the Future",
+    "FilmBudgetDollars": 19000000,
+    "FilmBoxOfficeDollars": 381109762,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$362109762"
+  },
+  {
+    "FilmID": 56,
+    "FilmName": "Mr. and Mrs. Smith",
+    "FilmBudgetDollars": 110000000,
+    "FilmBoxOfficeDollars": 468336279,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$358336279"
+  },
+  {
+    "FilmID": 68,
+    "FilmName": "Gladiator",
+    "FilmBudgetDollars": 103000000,
+    "FilmBoxOfficeDollars": 457683805,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$354683805"
+  },
+  {
+    "FilmID": 17,
+    "FilmName": "Troy",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 497298577,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$347298577"
+  },
+  {
+    "FilmID": 250,
+    "FilmName": "Memento",
+    "FilmBudgetDollars": 5000000,
+    "FilmBoxOfficeDollars": 39665950,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$34665950"
+  },
+  {
+    "FilmID": 244,
+    "FilmName": "Pale Rider",
+    "FilmBudgetDollars": 6900000,
+    "FilmBoxOfficeDollars": 41410568,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$34510568"
+  },
+  {
+    "FilmID": 3,
+    "FilmName": "King Kong",
+    "FilmBudgetDollars": 207000000,
+    "FilmBoxOfficeDollars": 550316796,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$343316796"
+  },
+  {
+    "FilmID": 83,
+    "FilmName": "Cast Away",
+    "FilmBudgetDollars": 85000000,
+    "FilmBoxOfficeDollars": 427230516,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$342230516"
+  },
+  {
+    "FilmID": 210,
+    "FilmName": "American Beauty",
+    "FilmBudgetDollars": 15000000,
+    "FilmBoxOfficeDollars": 356258047,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$341258047"
+  },
+  {
+    "FilmID": 52,
+    "FilmName": "Ocean's Eleven",
+    "FilmBudgetDollars": 110000000,
+    "FilmBoxOfficeDollars": 450728529,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$340728529"
+  },
+  {
+    "FilmID": 142,
+    "FilmName": "Robin Hood: Prince of Thieves",
+    "FilmBudgetDollars": 50000000,
+    "FilmBoxOfficeDollars": 390500000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$340500000"
+  },
+  {
+    "FilmID": 41,
+    "FilmName": "The Last Samurai",
+    "FilmBudgetDollars": 120000000,
+    "FilmBoxOfficeDollars": 456810575,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$336810575"
+  },
+  {
+    "FilmID": 149,
+    "FilmName": "The Fugitive",
+    "FilmBudgetDollars": 44000000,
+    "FilmBoxOfficeDollars": 368900000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$324900000"
+  },
+  {
+    "FilmID": 20,
+    "FilmName": "Charlie and the Chocolate Factory",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 473459076,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$323459076"
+  },
+  {
+    "FilmID": 50,
+    "FilmName": "The Matrix Revolutions",
+    "FilmBudgetDollars": 110000000,
+    "FilmBoxOfficeDollars": 424259759,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$314259759"
+  },
+  {
+    "FilmID": 34,
+    "FilmName": "The Bourne Ultimatum",
+    "FilmBudgetDollars": 130000000,
+    "FilmBoxOfficeDollars": 442748521,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$312748521"
+  },
+  {
+    "FilmID": 194,
+    "FilmName": "Gandhi",
+    "FilmBudgetDollars": 22000000,
+    "FilmBoxOfficeDollars": 52767889,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$30767889"
+  },
+  {
+    "FilmID": 175,
+    "FilmName": "Indiana Jones and the Temple of Doom",
+    "FilmBudgetDollars": 28000000,
+    "FilmBoxOfficeDollars": 333080271,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$305080271"
+  },
+  {
+    "FilmID": 25,
+    "FilmName": "Men in Black 2",
+    "FilmBudgetDollars": 140000000,
+    "FilmBoxOfficeDollars": 441818803,
+    "ComputedTime": "SHORT",
+    "FilmProfitLoss": "$301818803"
+  },
+  {
+    "FilmID": 9,
+    "FilmName": "Pearl Harbor",
+    "FilmBudgetDollars": 151500000,
+    "FilmBoxOfficeDollars": 450500000,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$299000000"
+  },
+  {
+    "FilmID": 171,
+    "FilmName": "Se7en",
+    "FilmBudgetDollars": 30000000,
+    "FilmBoxOfficeDollars": 328125643,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$298125643"
+  },
+  {
+    "FilmID": 228,
+    "FilmName": "Casino Royale",
+    "FilmBudgetDollars": 12000000,
+    "FilmBoxOfficeDollars": 41744718,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$29744718"
+  },
+  {
+    "FilmID": 253,
+    "FilmName": "Night Watch",
+    "FilmBudgetDollars": 4200000,
+    "FilmBoxOfficeDollars": 33923550,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$29723550"
+  },
+  {
+    "FilmID": 120,
+    "FilmName": "GoldenEye",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 356429941,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$296429941"
+  },
+  {
+    "FilmID": 188,
+    "FilmName": "Schindler's List",
+    "FilmBudgetDollars": 25000000,
+    "FilmBoxOfficeDollars": 321200000,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$296200000"
+  },
+  {
+    "FilmID": 261,
+    "FilmName": "Super Size Me",
+    "FilmBudgetDollars": 65000,
+    "FilmBoxOfficeDollars": 29529368,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$29464368"
+  },
+  {
+    "FilmID": 207,
+    "FilmName": "Leon",
+    "FilmBudgetDollars": 16000000,
+    "FilmBoxOfficeDollars": 45284974,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$29284974"
+  },
+  {
+    "FilmID": 155,
+    "FilmName": "Back to the Future Part II",
+    "FilmBudgetDollars": 40000000,
+    "FilmBoxOfficeDollars": 332000000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$292000000"
+  },
+  {
+    "FilmID": 22,
+    "FilmName": "Die Another Day",
+    "FilmBudgetDollars": 142000000,
+    "FilmBoxOfficeDollars": 431942139,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$289942139"
+  },
+  {
+    "FilmID": 30,
+    "FilmName": "Miami Vice",
+    "FilmBudgetDollars": 135000000,
+    "FilmBoxOfficeDollars": 163818556,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$28818556"
+  },
+  {
+    "FilmID": 238,
+    "FilmName": "Rumble in the Bronx",
+    "FilmBudgetDollars": 7500000,
+    "FilmBoxOfficeDollars": 36238752,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$28738752"
+  },
+  {
+    "FilmID": 164,
+    "FilmName": "Lethal Weapon 3",
+    "FilmBudgetDollars": 35000000,
+    "FilmBoxOfficeDollars": 319700000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$284700000"
+  },
+  {
+    "FilmID": 108,
+    "FilmName": "Who Framed Roger Rabbit?",
+    "FilmBudgetDollars": 70000000,
+    "FilmBoxOfficeDollars": 351500000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$281500000"
+  },
+  {
+    "FilmID": 95,
+    "FilmName": "X2",
+    "FilmBudgetDollars": 125000000,
+    "FilmBoxOfficeDollars": 406400513,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$281400513"
+  },
+  {
+    "FilmID": 166,
+    "FilmName": "A History of Violence",
+    "FilmBudgetDollars": 32000000,
+    "FilmBoxOfficeDollars": 59993782,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$27993782"
+  },
+  {
+    "FilmID": 84,
+    "FilmName": "Ocean's Twelve",
+    "FilmBudgetDollars": 85000000,
+    "FilmBoxOfficeDollars": 363531634,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$278531634"
+  },
+  {
+    "FilmID": 79,
+    "FilmName": "Die Hard: With A Vengeance",
+    "FilmBudgetDollars": 90000000,
+    "FilmBoxOfficeDollars": 365012499,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$275012499"
+  },
+  {
+    "FilmID": 53,
+    "FilmName": "Live Free or Die Hard",
+    "FilmBudgetDollars": 110000000,
+    "FilmBoxOfficeDollars": 383277179,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$273277179"
+  },
+  {
+    "FilmID": 88,
+    "FilmName": "Deep Impact",
+    "FilmBudgetDollars": 80000000,
+    "FilmBoxOfficeDollars": 349464664,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$269464664"
+  },
+  {
+    "FilmID": 113,
+    "FilmName": "Apollo 13",
+    "FilmBudgetDollars": 65000000,
+    "FilmBoxOfficeDollars": 334100000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$269100000"
+  },
+  {
+    "FilmID": 69,
+    "FilmName": "True Lies",
+    "FilmBudgetDollars": 100000000,
+    "FilmBoxOfficeDollars": 365300000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$265300000"
+  },
+  {
+    "FilmID": 173,
+    "FilmName": "Ghost Busters",
+    "FilmBudgetDollars": 30000000,
+    "FilmBoxOfficeDollars": 291632124,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$261632124"
+  },
+  {
+    "FilmID": 96,
+    "FilmName": "The Rock",
+    "FilmBudgetDollars": 75000000,
+    "FilmBoxOfficeDollars": 336069511,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$261069511"
+  },
+  {
+    "FilmID": 76,
+    "FilmName": "Rush Hour 2",
+    "FilmBudgetDollars": 90000000,
+    "FilmBoxOfficeDollars": 347425832,
+    "ComputedTime": "SHORT",
+    "FilmProfitLoss": "$257425832"
+  },
+  {
+    "FilmID": 62,
+    "FilmName": "Minority Report",
+    "FilmBudgetDollars": 102000000,
+    "FilmBoxOfficeDollars": 358814112,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$256814112"
+  },
+  {
+    "FilmID": 252,
+    "FilmName": "Four Weddings and a Funeral",
+    "FilmBudgetDollars": 4500000,
+    "FilmBoxOfficeDollars": 257700832,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$253200832"
+  },
+  {
+    "FilmID": 251,
+    "FilmName": "Shaun of the Dead",
+    "FilmBudgetDollars": 5000000,
+    "FilmBoxOfficeDollars": 30039392,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$25039392"
+  },
+  {
+    "FilmID": 102,
+    "FilmName": "Jarhead",
+    "FilmBudgetDollars": 72000000,
+    "FilmBoxOfficeDollars": 96780312,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$24780312"
+  },
+  {
+    "FilmID": 43,
+    "FilmName": "Mission: Impossible III",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 397501348,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$247501348"
+  },
+  {
+    "FilmID": 130,
+    "FilmName": "Superman",
+    "FilmBudgetDollars": 55000000,
+    "FilmBoxOfficeDollars": 300200000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$245200000"
+  },
+  {
+    "FilmID": 60,
+    "FilmName": "I, Robot",
+    "FilmBudgetDollars": 105000000,
+    "FilmBoxOfficeDollars": 348801023,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$243801023"
+  },
+  {
+    "FilmID": 202,
+    "FilmName": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+    "FilmBudgetDollars": 18000000,
+    "FilmBoxOfficeDollars": 261509089,
+    "ComputedTime": "SHORT",
+    "FilmProfitLoss": "$243509089"
+  },
+  {
+    "FilmID": 153,
+    "FilmName": "Wedding Crashers",
+    "FilmBudgetDollars": 40000000,
+    "FilmBoxOfficeDollars": 283218368,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$243218368"
+  },
+  {
+    "FilmID": 90,
+    "FilmName": "A Beautiful Mind",
+    "FilmBudgetDollars": 78000000,
+    "FilmBoxOfficeDollars": 316708996,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$238708996"
+  },
+  {
+    "FilmID": 51,
+    "FilmName": "Tomorrow Never Dies",
+    "FilmBudgetDollars": 110000000,
+    "FilmBoxOfficeDollars": 339504276,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$229504276"
+  },
+  {
+    "FilmID": 31,
+    "FilmName": "The World Is Not Enough",
+    "FilmBudgetDollars": 135000000,
+    "FilmBoxOfficeDollars": 361730660,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$226730660"
+  },
+  {
+    "FilmID": 19,
+    "FilmName": "Batman Begins",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 371824647,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$221824647"
+  },
+  {
+    "FilmID": 94,
+    "FilmName": "X-Men",
+    "FilmBudgetDollars": 75000000,
+    "FilmBoxOfficeDollars": 295999717,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$220999717"
+  },
+  {
+    "FilmID": 185,
+    "FilmName": "Goodfellas",
+    "FilmBudgetDollars": 25000000,
+    "FilmBoxOfficeDollars": 46743809,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$21743809"
+  },
+  {
+    "FilmID": 163,
+    "FilmName": "Rush Hour",
+    "FilmBudgetDollars": 35000000,
+    "FilmBoxOfficeDollars": 245300000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$210300000"
+  },
+  {
+    "FilmID": 221,
+    "FilmName": "Trainspotting",
+    "FilmBudgetDollars": 3100000,
+    "FilmBoxOfficeDollars": 24000785,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$20900785"
+  },
+  {
+    "FilmID": 42,
+    "FilmName": "The Perfect Storm",
+    "FilmBudgetDollars": 120000000,
+    "FilmBoxOfficeDollars": 328711434,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$208711434"
+  },
+  {
+    "FilmID": 80,
+    "FilmName": "Cinderella Man",
+    "FilmBudgetDollars": 88000000,
+    "FilmBoxOfficeDollars": 108539911,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$20539911"
+  },
+  {
+    "FilmID": 237,
+    "FilmName": "Pulp Fiction",
+    "FilmBudgetDollars": 8000000,
+    "FilmBoxOfficeDollars": 212900000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$204900000"
+  },
+  {
+    "FilmID": 154,
+    "FilmName": "Back to the Future Part III",
+    "FilmBudgetDollars": 40000000,
+    "FilmBoxOfficeDollars": 243700000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$203700000"
+  },
+  {
+    "FilmID": 81,
+    "FilmName": "The Bourne Supremacy",
+    "FilmBudgetDollars": 85000000,
+    "FilmBoxOfficeDollars": 288587450,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$203587450"
+  },
+  {
+    "FilmID": 218,
+    "FilmName": "Twins",
+    "FilmBudgetDollars": 15000000,
+    "FilmBoxOfficeDollars": 216600000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$201600000"
+  },
+  {
+    "FilmID": 78,
+    "FilmName": "The Departed",
+    "FilmBudgetDollars": 90000000,
+    "FilmBoxOfficeDollars": 290539042,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$200539042"
+  },
+  {
+    "FilmID": 190,
+    "FilmName": "Scarface",
+    "FilmBudgetDollars": 25000000,
+    "FilmBoxOfficeDollars": 44942821,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$19942821"
+  },
+  {
+    "FilmID": 213,
+    "FilmName": "Crouching Tiger, Hidden Dragon",
+    "FilmBudgetDollars": 15000000,
+    "FilmBoxOfficeDollars": 213200000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$198200000"
+  },
+  {
+    "FilmID": 110,
+    "FilmName": "xXx",
+    "FilmBudgetDollars": 70000000,
+    "FilmBoxOfficeDollars": 267200000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$197200000"
+  },
+  {
+    "FilmID": 117,
+    "FilmName": "Total Recall",
+    "FilmBudgetDollars": 65000000,
+    "FilmBoxOfficeDollars": 261400000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$196400000"
+  },
+  {
+    "FilmID": 234,
+    "FilmName": "Alien",
+    "FilmBudgetDollars": 9000000,
+    "FilmBoxOfficeDollars": 203630630,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$194630630"
+  },
+  {
+    "FilmID": 118,
+    "FilmName": "Cliffhanger",
+    "FilmBudgetDollars": 65000000,
+    "FilmBoxOfficeDollars": 255000000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$190000000"
+  },
+  {
+    "FilmID": 103,
+    "FilmName": "The Village",
+    "FilmBudgetDollars": 71682975,
+    "FilmBoxOfficeDollars": 260197520,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$188514545"
+  },
+  {
+    "FilmID": 122,
+    "FilmName": "The Truman Show",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 248400000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$188400000"
+  },
+  {
+    "FilmID": 5,
+    "FilmName": "Superman Returns",
+    "FilmBudgetDollars": 204000000,
+    "FilmBoxOfficeDollars": 391120000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$187120000"
+  },
+  {
+    "FilmID": 170,
+    "FilmName": "Million Dollar Baby",
+    "FilmBudgetDollars": 30000000,
+    "FilmBoxOfficeDollars": 216763646,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$186763646"
+  },
+  {
+    "FilmID": 167,
+    "FilmName": "Moonraker",
+    "FilmBudgetDollars": 31000000,
+    "FilmBoxOfficeDollars": 210300000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$179300000"
+  },
+  {
+    "FilmID": 183,
+    "FilmName": "Kindergarten Cop",
+    "FilmBudgetDollars": 26000000,
+    "FilmBoxOfficeDollars": 202000000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$176000000"
+  },
+  {
+    "FilmID": 98,
+    "FilmName": "Unbreakable",
+    "FilmBudgetDollars": 73243106,
+    "FilmBoxOfficeDollars": 248099143,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$174856037"
+  },
+  {
+    "FilmID": 249,
+    "FilmName": "The Usual Suspects",
+    "FilmBudgetDollars": 6000000,
+    "FilmBoxOfficeDollars": 23341568,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$17341568"
+  },
+  {
+    "FilmID": 222,
+    "FilmName": "The Spy Who Loved Me",
+    "FilmBudgetDollars": 14000000,
+    "FilmBoxOfficeDollars": 185400000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$171400000"
+  },
+  {
+    "FilmID": 172,
+    "FilmName": "The Hunt For Red October",
+    "FilmBudgetDollars": 30000000,
+    "FilmBoxOfficeDollars": 200500000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$170500000"
+  },
+  {
+    "FilmID": 72,
+    "FilmName": "The Fifth Element",
+    "FilmBudgetDollars": 95000000,
+    "FilmBoxOfficeDollars": 263900000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$168900000"
+  },
+  {
+    "FilmID": 111,
+    "FilmName": "Die Hard 2",
+    "FilmBudgetDollars": 70000000,
+    "FilmBoxOfficeDollars": 237523878,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$167523878"
+  },
+  {
+    "FilmID": 178,
+    "FilmName": "For Your Eyes Only",
+    "FilmBudgetDollars": 28000000,
+    "FilmBoxOfficeDollars": 195300000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$167300000"
+  },
+  {
+    "FilmID": 214,
+    "FilmName": "Brokeback Mountain",
+    "FilmBudgetDollars": 13900000,
+    "FilmBoxOfficeDollars": 180343761,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$166443761"
+  },
+  {
+    "FilmID": 204,
+    "FilmName": "Aliens",
+    "FilmBudgetDollars": 17000000,
+    "FilmBoxOfficeDollars": 183316455,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$166316455"
+  },
+  {
+    "FilmID": 134,
+    "FilmName": "Enemy of the State",
+    "FilmBudgetDollars": 85000000,
+    "FilmBoxOfficeDollars": 250300000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$165300000"
+  },
+  {
+    "FilmID": 66,
+    "FilmName": "American Gangster",
+    "FilmBudgetDollars": 100000000,
+    "FilmBoxOfficeDollars": 264132214,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$164132214"
+  },
+  {
+    "FilmID": 6,
+    "FilmName": "Titanic",
+    "FilmBudgetDollars": 200000000,
+    "FilmBoxOfficeDollars": 1835400000,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$1635400000"
+  },
+  {
+    "FilmID": 257,
+    "FilmName": "Reservoir Dogs",
+    "FilmBudgetDollars": 1200000,
+    "FilmBoxOfficeDollars": 2832029,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$1632029"
+  },
+  {
+    "FilmID": 137,
+    "FilmName": "Shanghai Noon",
+    "FilmBudgetDollars": 55000000,
+    "FilmBoxOfficeDollars": 71189835,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$16189835"
+  },
+  {
+    "FilmID": 205,
+    "FilmName": "Hero",
+    "FilmBudgetDollars": 17000000,
+    "FilmBoxOfficeDollars": 177352140,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$160352140"
+  },
+  {
+    "FilmID": 179,
+    "FilmName": "Octopussy",
+    "FilmBudgetDollars": 27500000,
+    "FilmBoxOfficeDollars": 187500000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$160000000"
+  },
+  {
+    "FilmID": 209,
+    "FilmName": "Collateral",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 217670152,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$157670152"
+  },
+  {
+    "FilmID": 85,
+    "FilmName": "Click",
+    "FilmBudgetDollars": 82500000,
+    "FilmBoxOfficeDollars": 237555633,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$155055633"
+  },
+  {
+    "FilmID": 97,
+    "FilmName": "Constantine",
+    "FilmBudgetDollars": 75000000,
+    "FilmBoxOfficeDollars": 229976178,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$154976178"
+  },
+  {
+    "FilmID": 241,
+    "FilmName": "Live and Let Die",
+    "FilmBudgetDollars": 7000000,
+    "FilmBoxOfficeDollars": 161800000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$154800000"
+  },
+  {
+    "FilmID": 124,
+    "FilmName": "The Bourne Identity",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 213300000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$153300000"
+  },
+  {
+    "FilmID": 157,
+    "FilmName": "The Living Daylights",
+    "FilmBudgetDollars": 40000000,
+    "FilmBoxOfficeDollars": 191200000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$151200000"
+  },
+  {
+    "FilmID": 119,
+    "FilmName": "Clear and Present Danger",
+    "FilmBudgetDollars": 62000000,
+    "FilmBoxOfficeDollars": 207500000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$145500000"
+  },
+  {
+    "FilmID": 23,
+    "FilmName": "Lethal Weapon 4",
+    "FilmBudgetDollars": 140000000,
+    "FilmBoxOfficeDollars": 285400000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$145400000"
+  },
+  {
+    "FilmID": 231,
+    "FilmName": "Amelie",
+    "FilmBudgetDollars": 10350000,
+    "FilmBoxOfficeDollars": 152637129,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$142287129"
+  },
+  {
+    "FilmID": 109,
+    "FilmName": "Sleepy Hollow",
+    "FilmBudgetDollars": 70000000,
+    "FilmBoxOfficeDollars": 207068340,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$137068340"
+  },
+  {
+    "FilmID": 101,
+    "FilmName": "Braveheart",
+    "FilmBudgetDollars": 72000000,
+    "FilmBoxOfficeDollars": 209000000,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$137000000"
+  },
+  {
+    "FilmID": 13,
+    "FilmName": "Bee Movie",
+    "FilmBudgetDollars": 150000000,
+    "FilmBoxOfficeDollars": 286758211,
+    "ComputedTime": "SHORT",
+    "FilmProfitLoss": "$136758211"
+  },
+  {
+    "FilmID": 148,
+    "FilmName": "Patriot Games",
+    "FilmBudgetDollars": 45000000,
+    "FilmBoxOfficeDollars": 178100000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$133100000"
+  },
+  {
+    "FilmID": 233,
+    "FilmName": "Thunderball",
+    "FilmBudgetDollars": 9000000,
+    "FilmBoxOfficeDollars": 141200000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$132200000"
+  },
+  {
+    "FilmID": 135,
+    "FilmName": "Kill Bill: Vol. 1",
+    "FilmBudgetDollars": 55000000,
+    "FilmBoxOfficeDollars": 180098138,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$125098138"
+  },
+  {
+    "FilmID": 161,
+    "FilmName": "Never Say Never Again",
+    "FilmBudgetDollars": 36000000,
+    "FilmBoxOfficeDollars": 160000000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$124000000"
+  },
+  {
+    "FilmID": 254,
+    "FilmName": "Goldfinger",
+    "FilmBudgetDollars": 3000000,
+    "FilmBoxOfficeDollars": 124900000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$121900000"
+  },
+  {
+    "FilmID": 158,
+    "FilmName": "Sin City",
+    "FilmBudgetDollars": 40000000,
+    "FilmBoxOfficeDollars": 159098862,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$119098862"
+  },
+  {
+    "FilmID": 216,
+    "FilmName": "Sense and Sensibility",
+    "FilmBudgetDollars": 16500000,
+    "FilmBoxOfficeDollars": 134993774,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$118493774"
+  },
+  {
+    "FilmID": 212,
+    "FilmName": "Lethal Weapon 2",
+    "FilmBudgetDollars": 25000000,
+    "FilmBoxOfficeDollars": 140292000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$115292000"
+  },
+  {
+    "FilmID": 156,
+    "FilmName": "Licence to Kill",
+    "FilmBudgetDollars": 42000000,
+    "FilmBoxOfficeDollars": 156167015,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$114167015"
+  },
+  {
+    "FilmID": 181,
+    "FilmName": "The Running Man",
+    "FilmBudgetDollars": 27000000,
+    "FilmBoxOfficeDollars": 38122000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$11122000"
+  },
+  {
+    "FilmID": 126,
+    "FilmName": "Starsky & Hutch",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 170200225,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$110200225"
+  },
+  {
+    "FilmID": 177,
+    "FilmName": "Die Hard",
+    "FilmBudgetDollars": 28000000,
+    "FilmBoxOfficeDollars": 137350242,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$109350242"
+  },
+  {
+    "FilmID": 191,
+    "FilmName": "Star Trek IV: The Voyage Home",
+    "FilmBudgetDollars": 24000000,
+    "FilmBoxOfficeDollars": 133000000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$109000000"
+  },
+  {
+    "FilmID": 239,
+    "FilmName": "Diamonds are Forever",
+    "FilmBudgetDollars": 7200000,
+    "FilmBoxOfficeDollars": 116000000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$108800000"
+  },
+  {
+    "FilmID": 215,
+    "FilmName": "Hulk",
+    "FilmBudgetDollars": 137000000,
+    "FilmBoxOfficeDollars": 245160047,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$108160047"
+  },
+  {
+    "FilmID": 211,
+    "FilmName": "Lethal Weapon",
+    "FilmBudgetDollars": 15000000,
+    "FilmBoxOfficeDollars": 120192350,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$105192350"
+  },
+  {
+    "FilmID": 57,
+    "FilmName": "The Aviator",
+    "FilmBudgetDollars": 110000000,
+    "FilmBoxOfficeDollars": 214608827,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$104608827"
+  },
+  {
+    "FilmID": 131,
+    "FilmName": "Crimson Tide",
+    "FilmBudgetDollars": 55000000,
+    "FilmBoxOfficeDollars": 159387195,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$104387195"
+  },
+  {
+    "FilmID": 162,
+    "FilmName": "Star Trek: The Motion Picture",
+    "FilmBudgetDollars": 35000000,
+    "FilmBoxOfficeDollars": 139000000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$104000000"
+  },
+  {
+    "FilmID": 146,
+    "FilmName": "Star Trek: First Contact",
+    "FilmBudgetDollars": 46000000,
+    "FilmBoxOfficeDollars": 150000000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$104000000"
+  },
+  {
+    "FilmID": 73,
+    "FilmName": "The Lord of the Rings: Return of the King",
+    "FilmBudgetDollars": 94000000,
+    "FilmBoxOfficeDollars": 1133027325,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$1039027325"
+  },
+  {
+    "FilmID": 136,
+    "FilmName": "Alien 3",
+    "FilmBudgetDollars": 55000000,
+    "FilmBoxOfficeDollars": 158500000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$103500000"
+  },
+  {
+    "FilmID": 232,
+    "FilmName": "You Only Live Twice",
+    "FilmBudgetDollars": 9500000,
+    "FilmBoxOfficeDollars": 111600000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$102100000"
+  },
+  {
+    "FilmID": 55,
+    "FilmName": "Kingdom of Heaven",
+    "FilmBudgetDollars": 110000000,
+    "FilmBoxOfficeDollars": 211398413,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$101398413"
+  },
+  {
+    "FilmID": 89,
+    "FilmName": "Road to Perdition",
+    "FilmBudgetDollars": 80000000,
+    "FilmBoxOfficeDollars": 181054514,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$101054514"
+  },
+  {
+    "FilmID": 132,
+    "FilmName": "Deja Vu",
+    "FilmBudgetDollars": 80000000,
+    "FilmBoxOfficeDollars": 181038616,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$101038616"
+  },
+  {
+    "FilmID": 139,
+    "FilmName": "Blade II",
+    "FilmBudgetDollars": 54000000,
+    "FilmBoxOfficeDollars": 154306865,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$100306865"
+  },
+  {
+    "FilmID": 144,
+    "FilmName": "Shanghai Knights",
+    "FilmBudgetDollars": 50000000,
+    "FilmBoxOfficeDollars": null,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$0"
+  },
+  {
+    "FilmID": 151,
+    "FilmName": "The Last of the Mohicans",
+    "FilmBudgetDollars": 40000000,
+    "FilmBoxOfficeDollars": null,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$0"
+  },
+  {
+    "FilmID": 246,
+    "FilmName": "Around the World in 80 Days",
+    "FilmBudgetDollars": null,
+    "FilmBoxOfficeDollars": null,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$0"
+  },
+  {
+    "FilmID": 208,
+    "FilmName": "High Plains Drifter",
+    "FilmBudgetDollars": 15700000,
+    "FilmBoxOfficeDollars": 15700000,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$0"
+  },
+  {
+    "FilmID": 262,
+    "FilmName": "Kagemusha",
+    "FilmBudgetDollars": null,
+    "FilmBoxOfficeDollars": null,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$0"
+  },
+  {
+    "FilmID": 263,
+    "FilmName": "Ran",
+    "FilmBudgetDollars": 12000000,
+    "FilmBoxOfficeDollars": null,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$0"
+  },
+  {
+    "FilmID": 265,
+    "FilmName": "Once Were Warriors",
+    "FilmBudgetDollars": 1000000,
+    "FilmBoxOfficeDollars": null,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$0"
+  },
+  {
+    "FilmID": 112,
+    "FilmName": "The Long Kiss Goodnight",
+    "FilmBudgetDollars": 65000000,
+    "FilmBoxOfficeDollars": null,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$0"
+  },
+  {
+    "FilmID": 115,
+    "FilmName": "Fight Club",
+    "FilmBudgetDollars": 65000000,
+    "FilmBoxOfficeDollars": null,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$0"
+  },
+  {
+    "FilmID": 264,
+    "FilmName": "Sunshine",
+    "FilmBudgetDollars": 40000000,
+    "FilmBoxOfficeDollars": 31959646,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$-8040354"
+  },
+  {
+    "FilmID": 91,
+    "FilmName": "Children of Men",
+    "FilmBudgetDollars": 76000000,
+    "FilmBoxOfficeDollars": 69450202,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$-6549798"
+  },
+  {
+    "FilmID": 28,
+    "FilmName": "Stealth",
+    "FilmBudgetDollars": 138000000,
+    "FilmBoxOfficeDollars": 76416746,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$-61583254"
+  },
+  {
+    "FilmID": 29,
+    "FilmName": "Final Fantasy: The Spirits Within",
+    "FilmBudgetDollars": 137000000,
+    "FilmBoxOfficeDollars": 85131830,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$-51868170"
+  },
+  {
+    "FilmID": 159,
+    "FilmName": "Serenity",
+    "FilmBudgetDollars": 39000000,
+    "FilmBoxOfficeDollars": 38514517,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$-485483"
+  },
+  {
+    "FilmID": 54,
+    "FilmName": "Around the World in 80 Days",
+    "FilmBudgetDollars": 110000000,
+    "FilmBoxOfficeDollars": 72004159,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$-37995841"
+  },
+  {
+    "FilmID": 45,
+    "FilmName": "Windtalkers",
+    "FilmBudgetDollars": 115000000,
+    "FilmBoxOfficeDollars": 77628265,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$-37371735"
+  },
+  {
+    "FilmID": 217,
+    "FilmName": "Ride with the Devil",
+    "FilmBudgetDollars": 35000000,
+    "FilmBoxOfficeDollars": 630779,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$-34369221"
+  },
+  {
+    "FilmID": 123,
+    "FilmName": "Event Horizon",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 26673242,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$-33326758"
+  },
+  {
+    "FilmID": 64,
+    "FilmName": "Catwoman",
+    "FilmBudgetDollars": 100000000,
+    "FilmBoxOfficeDollars": 73887903,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$-26112097"
+  },
+  {
+    "FilmID": 58,
+    "FilmName": "Ali",
+    "FilmBudgetDollars": 109000000,
+    "FilmBoxOfficeDollars": 85300000,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$-23700000"
+  },
+  {
+    "FilmID": 260,
+    "FilmName": "Seven Samurai",
+    "FilmBudgetDollars": 500000,
+    "FilmBoxOfficeDollars": 271736,
+    "ComputedTime": "EPIC",
+    "FilmProfitLoss": "$-228264"
+  },
+  {
+    "FilmID": 169,
+    "FilmName": "The Assassination of Jesse James by the Coward Robert Ford",
+    "FilmBudgetDollars": 30000000,
+    "FilmBoxOfficeDollars": 11128555,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$-18871445"
+  },
+  {
+    "FilmID": 7,
+    "FilmName": "Evan Almighty",
+    "FilmBudgetDollars": 175000000,
+    "FilmBoxOfficeDollars": 173219280,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$-1780720"
+  },
+  {
+    "FilmID": 106,
+    "FilmName": "The Abyss",
+    "FilmBudgetDollars": 70000000,
+    "FilmBoxOfficeDollars": 54243125,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$-15756875"
+  },
+  {
+    "FilmID": 195,
+    "FilmName": "Equilibrium",
+    "FilmBudgetDollars": 20000000,
+    "FilmBoxOfficeDollars": 5345869,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$-14654131"
+  },
+  {
+    "FilmID": 121,
+    "FilmName": "The Black Dahlia",
+    "FilmBudgetDollars": 60000000,
+    "FilmBoxOfficeDollars": 46672813,
+    "ComputedTime": "LONG",
+    "FilmProfitLoss": "$-13327187"
+  },
+  {
+    "FilmID": 220,
+    "FilmName": "The Beach",
+    "FilmBudgetDollars": 50000000,
+    "FilmBoxOfficeDollars": 39778599,
+    "ComputedTime": "MEDIUM",
+    "FilmProfitLoss": "$-10221401"
+  }
+]

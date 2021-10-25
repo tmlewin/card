@@ -1,0 +1,806 @@
+Notes
+
+<script type="module">
+   import * as THREE from 'https://cdn.skypack.dev/three@v0.129.0';
+   
+   import { OrbitControls } from 'https://cdn.skypack.dev/three@v0.129.0/examples/jsm/controls/OrbitControls.js';
+
+
+
+
+Winners Mindset- Nothing worth having comes easy
+if i can't then i must and if i must then i can 
+Be an Action Taker
+Patience is key
+Utilize the community
+Celebrate your success.
+
+
+How to become fullstack dev
+
+resourceful
+analytical skills
+Knowledgeable
+
+
+Reverse engineer a 6 figure dev
+
+Curriculum
+
+Technical skills
+
+1) Master the Foundation.
+
+Computer science (scratch)
+
+
+Data structures- how to store and manipulate data in different ways. 
+programming concepts-arrays, functions,objects, variables
+
+Algorithms-The woprkflow of the code- ways of solving a problem
+
+Problem solving Mindset
+
+2) Master Frontend
+
+3)backend
+
+4) Capstone project
+
+5) demo day!!
+
+6) Apply for a job
+
+7)Algorithm Problem solving, mock interview
+
+
+How to make the most out of the bootcamp
+
+Engage in the community
+
+
+ask questions
+
+Help others
+
+
+recursion is afunction that calls it self
+
+it hgas break and condition that return itself
+Recursion visualizer
+https://st1.zoom.us/web_client/ehjzr5/html/externalLinkPage.html?ref=https://recursion.now.sh/
+
+
+recursion Tutorials
+
+Recursion is afunction that calls it self
+Recursion Breakdown
+
+static approach(stattic == harcode)
+does it work?find pattern
+
+dynamic approach is using for loop
+\
+let matrix = [[1, 2, 3], [4, 5, 6], [9, 8, 9]];
+
+let rightSum = 0;
+let leftSum = 0;
+
+for (let i = 0; i < matrix.length; i++) {
+  leftSum += matrix[i][i];
+
+  let rightIndex = 2 - i;
+  rightSum += matrix[i][rightIndex];
+}
+console.log(rightSum, "what is in rightSum");
+console.log(leftSum, "what is in leftSum");
+
+https://docs.google.com/spreadsheets/d/1l9EUPbUjJdOvu_GqfrCp-KglI8wUkBainJcpxfheabA/edit#gid=0
+
+http://pythontutor.com/javascript.html#mode=edit
+
+limtless book 
+
+
+Searching algorithms
+How to find an element or words in a dictionary:
+Going by page by page is Linear Search
+Going by Index is called logarithmic Search(Binary Searching algorithms)
+Binary search works with sorted lists
+
+
+Two types of sorts= bubble sort and merge sort
+
+https://stackblitz.com/edit/sorting-objects?file=index
+
+Data structure is the way data is stoired so it can be used efficiently
+
+Queues and stacks 
+
+A queue is a line .it is first in  first   out
+ first   out  stack is last in
+
+ const undo = new Stack("undo");
+const redo = new Stack("redo");
+const editor = document.getElementById("editor");
+const undoButton = document.getElementById("undo");
+const redoButton = document.getElementById("redo");
+editor.addEventListner("keyup", ev =>{
+    undo.push(ev.target.value);
+    undo.string();
+    redo.string();
+});
+undoButton.addeventListner("click", ev => {
+  ev.preventDefault();
+  const value = undo.pop();
+  document.getElementById("editor").value = value;
+  redo.push(value);
+})
+redoButton.addEventListner("click", ev => {
+  ev.preventFefault();
+  if(!redo.isEmpty()){
+  const value = redo.pop();
+  document.getElementById("editor").value = value;
+  undo.push(value);
+  }
+})
+16:46
+<div id="app"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Undo/Redo: Finish The Text Editor!</h1>
+    <p>
+      For this homework you'll be finishing the business logic to text editor! All
+      of the features are done, and stories concluded save for one: A user can
+      navigate through their command history. It's up to <b>You</b> to save the day
+      and add the final parts of the product before launch!<br /><br />
+      :point_right: Finish the <b>Stack</b> class.<br />
+      :point_right: Finish the <b>Undo/Redo</b> Event listener.<br /><br />
+      <b>Extra Credit:</b> Remove the duplicate entries in your stacks!
+    </p>
+    <div id="wrapper">
+      <h2 id="header">Super Cool Editor Product!</h2>
+      <!-- <textarea id="editor"></textarea> -->
+      <textarea id="editor"></textarea>
+      <div class="action">
+        <button id="undo">Undo</button>
+        <button id="redo">Redo</button>
+      </div>
+      <p>Type <b>ctrl + 'z'</b> to undo, and <b>ctrl + 'r'</b> to redo!</p>
+      <p></p>
+    </div> 
+</body>
+</html>
+16:47
+* {
+    font-family: Lato;
+  }
+  #wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+  }
+  #wrapper p {
+    margin: 16px auto;
+  }
+  #header {
+    margin: 20px auto;
+  }
+  textarea {
+    padding: 16px;
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+    overflow-y: auto;
+    resize: none;
+    outline: none;
+    border-radius: 10px;
+  }
+  .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .action > button {
+    width: 60px;
+    padding: 10px;
+  }
+16:47
+class Stack {
+  constructor(name) {
+    // constructor() {
+    this.name = name;
+    this.data = [];
+  }
+  // Add an element to the end of the array
+  push(element) {
+    // this.top += 1
+    // this.data[this.top] = element
+    this.data.push(element);
+    // console.log(this.data);
+  }
+  // Remove the last element at the array
+  pop() {
+    return !this.isEmpty() ? this.data.pop() : this.data;
+    // console.log(this.data);
+  }
+  // Return the last element
+  peek() {
+    return this.data[this.size() - 1];
+  }
+  // Return "true" if the array is empty
+  isEmpty() {
+    return this.data.length === 0;
+  }
+  // Return the size of the array
+  size() {
+    return this.data.length;
+  }
+  // Reset the array
+  clear() {
+    this.data = [];
+  }
+  /*
+    // Output the class
+    print() {
+      console.log(this.toString());
+    }
+    */
+  // Output the array
+  toString() {
+    console.log(this.name, this.data.toString());
+    // return this.data.toString()
+  }
+}
+export default Stack;
+
+
+
+
+
+
+https://st1.zoom.us/web_client/sjstu3/html/externalLinkPage.html?ref=https://stackblitz.com/edit/js-dll-homework?file=index.js
+
+
+A linkedlist is a linear  data structure. we traverse  through elements and nodes in a sequential order
+
+Nodes are containetrs that stores data ex string, numbers, ulr to images
+types of linked list single and dooubly linked list
+
+the double linked list is  bi-directional
+
+structure is value and link to the next node
+they can live everywhere
+has dynamic space to grow dynamically
+element is data stored in the node
+pointer is adress in memory
+not co0ntigiuos memory
+
+addtohead
+addtotail 
+removefromhead
+print()
+find
+insertatindex
+
+class Node {
+  constructor(value, next) {
+    this.value = value;
+    this.next = next || null;
+  }
+}
+
+class LinkedList {
+    constructor() {
+        this.size = 0;
+        this.head = null;
+        this.tail = null;
+    }
+
+    // Add to the front of the linked list.
+    prepend(value) {
+        this.size += 1
+
+        // Create a new node
+        const node = Node(value, this.head)
+        this.head = node;
+
+        if (!this.tail) this.tail = node;
+        return this
+    }
+
+    append(value) {
+        // if there is no head or tail
+            // head = the new node
+            // tail = new node
+        //  else
+            // Create a new node with new value
+            // Connect new Node to tail
+            // Reassign the tail
+        // increase size by 1
+    }
+
+    https://app.ayoa.com/mindmaps/98e3f5ff-cddb-44cf-be7d-b29f1d0846c6?redirect=false
+
+    fromArray() {}
+
+    toArray() {}
+
+    delete() {}
+
+    deleteHead() {}
+
+    deleteTail() {}
+
+    includes() {}
+
+    find() {}
+}
+
+let output = JSON.stringify()
+
+nmode ha 2 attributes(value and next. next is the pointer)
+
+memory can grows automatically doesnt need a dedicated amount of spoace or take up a memory block
+
+easy tp add or remove elements by changoing references
+
+remove(element) {
+    let temp;
+    let previousNode;
+    if (!this.head) {
+        return;
+    }
+    if (this.head.getData() === element) {
+        this.head = this.head.getNext();
+        return;
+    }
+    previousNode = this.head;
+    temp = this.head.getNext();
+    while(temp) {
+        if (temp.getData() !== element) {
+            previousNode = temp;
+            temp = temp.getNext();
+        } else {
+            previousNode.setNext(temp.getNext());
+            break;
+        }
+    }
+}
+
+
+
+
+    getNext() {
+        return this.next;
+    }
+
+    setNext(n) {
+        this.next = n;
+    }
+
+    getData() {
+        return this.element;
+    }
+
+}
+
+ pop() {
+    // if empty: return null
+    if (!this.length) {
+      return null;
+    } else {
+      // save current tail (to return it later)
+      const nodeToRemove = this.tail;
+
+      if (this.length === 1) {
+        // after removing the only node, there will be no head and tail
+        this.head = null;
+        this.tail = null;
+      } else {
+        // set the node before the current tail as the new tail
+        this.tail = this.tail.prev;
+        // remove the connection from the new tail to the old tail
+        this.tail.next = null;
+        // remove the connection from the old tail to the new tail
+        nodeToRemove.prev = null;
+      }
+
+      // decrease length by 1
+      this.length -= 1;
+
+      // return old tail
+      return nodeToRemove;
+    }
+  }
+}
+
+
+ unshift(value) {
+    // create new node
+    const newNode = new Node(value);
+
+    // if list is empty: set head and tail to new node
+    if (!this.length) {
+      this.head = newNode;
+      this.tail = newNode;
+    } else {
+      // set new node's next to current head
+      newNode.next = this.head;
+
+      // set the current head's prev to new node
+      this.head.prev = newNode;
+
+      // set list's head to new node
+      this.head = newNode;
+    }
+
+    // increase length by 1
+    this.length += 1;
+
+    // return new node
+    return newNode;
+  }
+}
+
+
+
+ shift() {
+    // we can't remove data from an empty list
+    if (!this.length) {
+      return null;
+    }
+
+    // set head as nodeToRemove
+    const nodeToRemove = this.head;
+
+    if (this.length === 1) {
+      // after removing the only element, the list will be empty, so `head` and `tail` should be `null`
+      this.head = null;
+      this.tail = null;
+    } else {
+      // the node after the nodeToRemove should become the new head
+      this.head = nodeToRemove.next;
+
+      // remove both connections from the new head to the old head (= nodeToRemove)
+      this.head.prev = null;
+      nodeToRemove.next = null;
+    }
+
+    // decrease length by 1
+    this.length -= 1;
+
+    // return nodeToRemove
+    return nodeToRemove;
+  }
+}
+
+Linked List practice
+
+https://st1.zoom.us/web_client/sjstu3/html/externalLinkPage.html?ref=https://visualgo.net/en/list
+
+tree have no loops
+a tree is a subset of a graph
+
+binary tree is a tree that have 2 branches at every node
+very child to the right would have greater vale while very value by left would have lesser value
+Path- sequence of nodes and edges connecting a node with descendants is
+Distance - number of edges along the shortest path
+depth
+
+Binary tree has atmost two children per node
+children have left and right
+parent
+you can nest sub trees in binary tree
+
+
+Continuing the logic from here, we're assuming that the node has two children, but we're only going to work with the right child subtree.
+
+From the root of this subtree, we're going to traverse all the way down the branch, as far left as we can go until we reach a leaf. When we reach that destination, we replace the node value with the leaf (temp) value.
+
+Great! We've successfully deleted the target value from the node by replacing it with another already existing value.
+
+But we're not done! Now we need to delete the leaf node so that we're not left with doubles of the same value.
+
+We'll call the function removeNode again, this time to remove the leaf node value of the same right child subtree.
+
+json viewer
+
+https://st1.zoom.us/web_client/sjstu3/html/externalLinkPage.html?ref=https://stackblitz.com/edit/exersize-bst-find?file=index.js
+
+https://st1.zoom.us/web_client/sjstu3/html/externalLinkPage.html?ref=https://drive.google.com/drive/folders/109SVkUq5NC_8eb6PaUPGr6OPse-BOfmO?usp=sharing
+
+autocomplete
+
+https://st1.zoom.us/web_client/f3jfhf/html/externalLinkPage.html?ref=https://stackblitz.com/edit/trie-exercise-1?file=index.js
+
+
+decrease by rand heal between  number 1 and 5 and all dcerease 
+
+
+class Trie {
+  constructor() {
+    this.root = {};
+  }
+
+    insert(str, pos = 0) {
+    if (str.length === pos) {
+      this.end = true;
+      return;
+    }
+
+    let key = [str[pos]];
+    if (!this.children[key]) this.children[key] = new Trie();
+
+    this.children[key].insert(str, pos + 1);
+  }
+
+
+  insert(word) {
+    let node = this.root;
+    for (let c of word) {
+      if (node[c] == null) node[c] = {};
+      node = node[c];
+    }
+    node.isWord = true;
+  }
+
+  traverse(word) {
+    let node = this.root;
+    for (let c of word) {
+      node = node[c];
+      if (node == null) return null;
+    }
+    return node;
+  }
+
+  search(word) {
+    const node = this.traverse(word);
+    return node 
+  }
+}
+const trie = new Trie();
+trie.insert('cow');
+trie.insert('cat');
+trie.insert('dog');
+trie.insert('dad');
+console.log(trie.search('d'));
+
+for(let bracket of input) {
+    let bracketsIndex = brackets.indexOf(bracket)
+    console.log(`The current element is ${bracket}, which has an index in input of ${input.indexOf(bracket)}, and matches the bracket with index ${bracketsIndex} in brackets`)
+
+    if(bracketsIndex % 2 === 0) {
+      stack.push(bracketsIndex + 1)
+      console.log(`this is an opening bracket. The address of its matching closing bracket in brackets is ${bracketsIndex + 1}. Adding that index to the stack makes the stack ${stack}`)
+    } else {
+      console.log(`this is a closing bracket, so ${stack.pop()} is being popped off the stack`)
+      if(stack.pop() !== bracketsIndex) {
+        return false;
+      }
+    }
+  }
+  return stack.length === 0
+}
+
+/**
+ * TODO: Update the text in the "Formatted Text" section as a user types in the textarea
+ * TODO TOGETHER: Add a .bold, .italic classes to "Formatted Text" when the appropriate button is clicked
+ * TODO: Add an .underline class to "Formatted Text" when Underline button is clicked
+ * TODO: Toggle the align style for "Formatted Text" when the appropriate button is clicked
+ */
+
+
+/**
+ * Update the output text as a user types in the textarea
+ * HINT: Use the onkeydown function inside HTML
+ */
+updateText =() => {
+  let txt  = document.getElementById('text-input').value;
+  document.getElementById('text-output').innerText = txt;
+
+}
+
+/**
+ * Toggle the bold class for the output text
+ * HINT: Use the onclick function insite HTML
+ * HINT: Look into using this keyword
+ * HINT: Use the classList property
+ * HINT: Toggle .active class for the button
+ */
+makeBold= (elem) => {
+  elem.classList.toggle('active');
+  document.getElementById('text-output').classList.toggle('bold');
+}
+
+/**
+ * Toggle the italic class for the output text
+ */
+makeItalic= (elem) => {
+  elem.classList.toggle('active');
+  document.getElementById('text-output').classList.toggle('italic');
+}
+
+/**
+ * Toggle the underline class for the output text
+ * HINT: Toggle the .active class for the button
+ * HINT: Use the classList property
+ * HINT: Use contains, remove, and add functions
+ */
+makeUnderLine= (elem) => {
+  elem.classList.toggle('active');
+  let formattedText = document.getElementById('text-output');
+  if(formattedText.classList.contains('underline')){
+    formattedText.classList.remove('underline');
+  }
+  else{
+    formattedText.classList.add('underline');
+  }
+
+}
+/**
+ * Toggle the style textAlign attribute
+ * Toggle the active state for the align butttons
+ * HINT: Use the style property of the element
+ * HINT: Make sure to untoggle the active state for all other align buttons
+ */
+alignTextType = (elem, alignType) => {
+  document.getElementById('text-output').style.textAlign = alignType;
+  let btnclass = document.getElementsByClassName('btn btn-light');
+  for(buttonlist of btnclass){
+    buttonlist.classList.remove('active')
+  }
+  elem.classList.toggle('active');
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Binary Search Tree 
+Tress is non non linear. it has nodes edges and roots
+it used for quick searches and location of data  in
+Also the file system strutures the
+also nosql
+even html 
+A parent Noder is the root
+the edges connect the nodes
+Parent Node - the converse notion of a child(ancestor)
+child node is a descendant of parent
+siblings are group of node with same parent
+ancestor(root)below it 
+descendants below it a baselevel is leaf. leasf has no children
+node with 1 child is a branch
+ancestor again has children with proceeding 
+
+
+Tree data Structure
+Degree is number  of children  from  node zero for a leaf
+
+
+window.onload = function() {
+
+    // Display Movies list
+    let sortedMovies = sortMoviesByAttr(movies, "title");
+    displayMovies(movies);
+}
+
+/**
+ * Display list of movies in a table
+ * You don't have to worry so much about this
+ */
+function displayMovies(movies){
+    let table = "<table border='1' style='width: 100%'>";
+    table += "<tr><th>ID</th><th>Name</th><th>Rank</th></tr>";
+    for(let index=0; index<movies.length; index++){
+        table += "<tr>";
+        table += "<td>" + movies[index].id + "</td>";
+        table += "<td>" + movies[index].title + "</td>";
+        table += "<td>" + movies[index].rank + "</td>";
+        table += "</tr>"
+    }
+    // Close the table
+    table += "</table>";
+    document.getElementById("movies-list").innerHTML = table;
+}
+
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+     height:100px;
+    width : 100px;
+    border-radius:50%;
+    display: flex;
+
+    git remote add origin https://github.com/tmlewin/Cp_BootCamp.git
+
+    flex-flow:coulmn wrap (it is used instead of doing flex wrap and direction)
+https://st1.zoom.us/web_client/f3jfhf/html/externalLinkPage.html?ref=https://www.frontendmentor.io/solutions
+    figma
+
+
+https://st1.zoom.us/web_client/f3jfhf/html/externalLinkPage.html?ref=https://github.com/microsoft/PowerToys
+
+https://st1.zoom.us/web_client/f3jfhf/html/externalLinkPage.html?ref=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+https://www.w3schools.com/js/js_promise.asp
+https://javascript.info/promise-basics
+https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+https://developer.spotify.com/documentation/web-api/
+
+A settings object is an environment that provides additional information when JavaScript code is running. This includes the realm and module map, as well as HTML specific information such as the origin. The incumbent settings object is tracked in order to ensure that the browser knows which one to use for a given piece of user code.
+
+Promises
+
+Promises = object of completed or fulfilled async operations
+states: pending,fulfilled,rejected
+
+callback stack , input and out put and global stacks
+https://st1.zoom.us/web_client/wm8kef/html/externalLinkPage.html?ref=https://github.com/unsplash/unsplash-js
+
+
+
+
+key=PmdtMPknC6fBsH-U8CX6w2LK2odJByJ8W0NzMADhUmA
+
+secret=HWI14hkWE9qDiLE96RKQiqp21UZ3P28lLKSOIah95X4
+npm init -y
+
+ex numbers by a hex portion of the timestamp, and once depleted offsets by a hex portion of the microseconds since pageload. That way, even if Math.random is on the same seed, both clients would have to generate the UUID the exact same number of microseconds since pageload (if high-perfomance time is supported) AND at the exact same millisecond (or 10,000+ years later) to get the same UUID:
+
+function generateUUID() { // Public Domain/MIT
+    var d = new Date().getTime();//Timestamp
+    var d2 = (performance && performance.now && (performance.now()*1000)) || 0;//Time in microseconds since page-load or 0 if unsupported
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = Math.random() * 16;//random number between 0 and 16
+        if(d > 0){//Use timestamp until depleted
+            r = (d + r)%16 | 0;
+            d = Math.floor(d/16);
+        } else {//Use microseconds since page-load if supported
+            r = (d2 + r)%16 | 0;
+            d2 = Math.floor(d2/16);
+        }
+        return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+    });
+}
