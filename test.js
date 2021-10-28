@@ -430,21 +430,26 @@ while(num < 100){
 
 
 
+function calculateDaysBetweenDates(date1, date2) {
+    var oneDay = 24 * 60 * 60 * 1000;
+    var date1InMillis = date1.getTime();
+    var date2InMillis = date2.getTime();
+    var days = Math.round(Math.abs(date2InMillis - date1InMillis) / oneDay);
+    return days;
+  }
+  calculateDaysBetweenDates('2012, 0, 3', '2012, 0, 1');
+  
 
 
 
 
 
-// calculateDaysBetweenDates
 
 
-// const calculateDaysBetweenDates = (date1, date2) => {
-//     let date1 = new Date(date1)
-//     let date2 = new Date(date2)
-//     let diff = Math.abs(date1 - date2)
-//     let days = Math.floor(diff / (1000 * 60 * 60 * 24))
-//     return days
-// }
+
+
+
+
 
 
 
