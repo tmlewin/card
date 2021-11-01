@@ -105,6 +105,95 @@
 //   lst.print();
   
 
+// Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
+
+
+// function minMaxSum(arr) {
+//     let min = 0;
+//     let max = 0;
+//     let sum = 0;
+//     for(let i= 0; i< arr.length; i++){
+//         sum = sum + arr[i]
+
+//     }
+//     min = sum  - Math.max(...arr)
+//     max = sum - Math.min(...arr)
+//     console.log(min, max)
+// }
+
+
+// minMaxSum([1, 2, 3, 4, 5])
+
+
+
+// function miniMaxSum(arr) {
+//     // Write your code here
+//    let minSum;
+//    let maxSum;
+//    let sum;
+   
+//    // Create a for loop to figure out what index to exclude
+//    for(let i =0; i < arr.length; i ++){
+//        // i tells us what index to exclude
+//        sum = 0;
+//        for(let j = 0; j < arr.length; j++){
+//            // if we hit the i, that means we just skip that index
+//            if(i != j){
+//                sum += arr[j]
+//            }   
+//        }
+//        // initializes the maxSum and minSum
+//        if( i == 0){
+//            minSum = sum;
+//            maxSum = sum;
+//        }
+       
+//         // Sets the sum to minSum/maxSum
+//        if(sum < minSum) {
+//            minSum = sum;
+//        }
+//        if(sum > maxSum){
+//            maxSum = sum
+//        }
+//    }
+   
+//    console.log(`${minSum} ${maxSum}`);
+// }
+
+// miniMaxSum([1, 2, 3, 4, 5])
+
+
+
+// calculate the diagonal difference between two arrays and return the absolute difference
+// function diagonalDifference(arr) {
+//     let leftToRight = 0;
+//     let rightToLeft = 0;
+//     for(let i = 0; i < arr.length; i++){
+//         leftToRight += arr[i][i];
+//         rightToLeft += arr[i][arr.length - 1 - i];
+//     }
+//     return Math.abs(leftToRight - rightToLeft);
+// }
+
+
+// console.log(diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8, -12]]));
+
+
+
+// calculate the diagonal difference between two arrays and return the absolute difference
+//  function diagonalDifference(arr) {
+//     let leftToRight = 0;
+//     let rightToLeft = 0;
+//     for(let i = 0; i < arr.length; i++){
+//         leftToRight += arr[i][i];
+//         rightToLeft += arr[i][arr.length - 1 - i];
+//     }
+//     return Math.abs(leftToRight - rightToLeft);
+// }
+
+
+// console.log(diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8, -12]]));
+     
 
 
 
@@ -124,6 +213,35 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// function miniMaxSum(arr) {
+//     let min = 0;
+//     let max = 0;
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum = sum + arr[i];
+//     }
+//     min = sum - Math.max(...arr);
+//     max = sum - Math.min(...arr);
+//     console.log(min, max);
+// }
+
+
+// miniMaxSum([1, 3, 5, 7, 9]);
+
+
+    
 
 
 
