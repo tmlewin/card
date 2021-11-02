@@ -184,8 +184,28 @@
 // console.log(diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8, -12]]));
 
 
-
+// Given an m x n matrix, return true if the matrix is Toeplitz. Otherwise, return false
+// Input: matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
+// Output: true
+// Explanation:
+// In the above grid, the diagonals are:
+// "[9]", "[5, 5]", "[1, 1, 1]", "[2, 2, 2]", "[3, 3]", "[4]".
+// In each diagonal all elements are the same, so the answer is True.
         
+// const  isToeplitzMatrix = function(matrix) {
+//     for(let i = 0; i < matrix.length; i++){
+//         for(let j = 0; j < matrix[i].length; j++){
+//             if(i != 0 && j != 0){
+//                 if(matrix[i][j] != matrix[i-1][j-1]){
+//                     return false
+//                 }
+//             }
+//         }
+//     }
+//     return true
+    
+// }
+
 
 
 
