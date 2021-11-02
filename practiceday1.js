@@ -164,19 +164,6 @@
 
 
 
-// calculate the diagonal difference between two arrays and return the absolute difference
-// function diagonalDifference(arr) {
-//     let leftToRight = 0;
-//     let rightToLeft = 0;
-//     for(let i = 0; i < arr.length; i++){
-//         leftToRight += arr[i][i];
-//         rightToLeft += arr[i][arr.length - 1 - i];
-//     }
-//     return Math.abs(leftToRight - rightToLeft);
-// }
-
-
-// console.log(diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8, -12]]));
 
 
 
@@ -185,7 +172,9 @@
 //     let leftToRight = 0;
 //     let rightToLeft = 0;
 //     for(let i = 0; i < arr.length; i++){
+//         // console.log(arr[i][i])
 //         leftToRight += arr[i][i];
+//         // console.log('we are testing '+ leftToRight)
 //         rightToLeft += arr[i][arr.length - 1 - i];
 //     }
 //     return Math.abs(leftToRight - rightToLeft);
@@ -193,11 +182,31 @@
 
 
 // console.log(diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8, -12]]));
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
      
-
-
-
-
 
 
 
