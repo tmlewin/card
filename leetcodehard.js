@@ -195,6 +195,23 @@
 
 
 
+// var globalVar = "xyz";
+
+// (function outerFunc(outerArg) {
+//     var outerVar = 'a';
+    
+//     (function innerFunc(innerArg) {
+//     var innerVar = 'b';
+    
+//     console.log(
+//         "outerArg = " + outerArg + "\n" +
+//         "innerArg = " + innerArg + "\n" +
+//         "outerVar = " + outerVar + "\n" +
+//         "innerVar = " + innerVar + "\n" +
+//         "globalVar = " + globalVar);
+    
+//     })(456);
+// })(123);
 
 
 
@@ -203,61 +220,76 @@
 
 
 
+// function isValidSubsequence(array, sequence) {
+//     let i = 0;
+//     let j = 0;
+//     while (i < array.length && j < sequence.length) {
+//         if (array[i] === sequence[j]) {
+//             j++;
+//         }
+//         i++;
+//     }
+//     return j === sequence.length;
+// }
+
+
+// console.log(isValidSubsequence([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10]))
 
 
 
 
+//  Given a string s, return the longest palindromic substring in s.
+
+ 
+
+// Example 1:
+
+// Input: s = "babad"
+// Output: "bab"
+// Note: "aba" is also a valid answer.
+// Example 2:
+
+// Input: s = "cbbd"
+// Output: "bb"
+// Example 3:
+
+// Input: s = "a"
+// Output: "a"
+// Example 4:
+
+// Input: s = "ac"
+// Output: "a"
+ 
+
+// Constraints:
+
+// 1 <= s.length <= 1000
+// s consist of only digits and English letters.
 
 
+ function longestPalindrome(s) {
+    let longest = '';
+    let current = '';
+    for (let i = 0; i < s.length; i++) {
+        current = helper(s, i, i);
+        if (current.length > longest.length) longest = current;
+        current = helper(s, i, i + 1);
+        if (current.length > longest.length) longest = current;
+    }
+    return longest;
+}
 
 
+function helper(s, left, right) {
+    while (left >= 0 && right < s.length && s[left] === s[right]) {
+        left--;
+        right++;
+    }
+    return s.slice(left + 1, right);
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(longestPalindrome('babad'))
 
 
 

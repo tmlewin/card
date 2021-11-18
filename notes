@@ -1,0 +1,35 @@
+ways of improving accessibility  in a website
+close captioning & subtitles    
+screen reader capability
+accessibility with keyboard
+skip to content
+alternate text
+color allocation and contrast
+color scheme and Page layout for seizure avoidance
+
+TestComplete is a UI functional test automation tool that you can use to create and run tests on any web application.
+Run tests in parallel across 2000+ real environments – without any setup or configuration.
+Get real-time access to the latest devices, resolutions, browsers, and operating systems in TestComplete’s device cloud.
+
+ CSS Sprites are a means of combining multiple images into a single image file for use on a website, to help with performance.
+ A closure is the combination of a function and the lexical environment within which that function was declared.
+
+ Clean up the HTML document.
+Reduce external HTTP requests.
+Sprites, compressed images, smaller images.
+Incorporate JavaScript at the bottom of the page.
+Minify CSS, JavaScript, HTML.
+caching and cdn
+
+A closure is a sequence of a function bundled together with references to its enclosing state. It gives you access to an outer function’s scope from an inner function. When a function renders a function, that is when the concept of closures becomes more consistent. The rendered function has access to variables that are not in the global scope, but they individually exist in its closure.
+
+Event bubbling is a type of event propagation where the event first triggers on the deepest target element. It causes all events in the child nodes to be automatically passed to its parent nodes. The advantage of this method is speed because the code only requires to traverse the DOM tree once.
+
+Inline is the default. For example: An inline element is <span>.
+Block shows as a block element, such as <div> or <p>.
+Inline-block shows an element as an inline-level block container.
+
+When I want an element on the left or right of the floating element not to wrap around it, I can utilize clear.
+
+
+
