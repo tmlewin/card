@@ -267,29 +267,93 @@
 // s consist of only digits and English letters.
 
 
- function longestPalindrome(s) {
-    let longest = '';
-    let current = '';
-    for (let i = 0; i < s.length; i++) {
-        current = helper(s, i, i);
-        if (current.length > longest.length) longest = current;
-        current = helper(s, i, i + 1);
-        if (current.length > longest.length) longest = current;
-    }
-    return longest;
-}
+//  function longestPalindrome(s) {
+//     let longest = '';
+//     let current = '';
+//     for (let i = 0; i < s.length; i++) {
+//         current = helper(s, i, i);
+//         if (current.length > longest.length) longest = current;
+//         current = helper(s, i, i + 1);
+//         if (current.length > longest.length) longest = current;
+//     }
+//     return longest;
+// }
 
 
-function helper(s, left, right) {
-    while (left >= 0 && right < s.length && s[left] === s[right]) {
-        left--;
-        right++;
-    }
-    return s.slice(left + 1, right);
-}
+// function helper(s, left, right) {
+//     while (left >= 0 && right < s.length && s[left] === s[right]) {
+//         left--;
+//         right++;
+//     }
+//     return s.slice(left + 1, right);
+// }
 
 
-console.log(longestPalindrome('babad'))
+// console.log(longestPalindrome('babad'))
+
+// Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.
+
+// A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+
+// Example 1:
+
+// Input: digits = "23"
+// Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+// Example 2:
+
+// Input: digits = ""
+// Output: []
+// Example 3:
+
+// Input: digits = "2"
+// Output: ["a","b","c"]
+ 
+
+// Constraints:
+
+// 0 <= digits.length <= 4
+// digits[i] is a digit in the range ['2', '9'].
+
+
+//   function letterCombinations(digits) {
+//     let map = {
+//         '2': 'abc',
+//         '3': 'def',
+//         '4': 'ghi',
+//         '5': 'jkl',
+//         '6': 'mno',
+//         '7': 'pqrs',
+//         '8': 'tuv',
+//         '9': 'wxyz'
+//     }
+//     let result = [];
+//     if (digits.length === 0) return result;
+//     helper(digits, 0, '', result, map);
+//     return result;
+// }
+
+
+// function helper(digits, index, current, result, map) {
+//     if (index === digits.length) {
+//         result.push(current);
+//         return;
+//     }
+//     let letters = map[digits[index]];
+//     for (let i = 0; i < letters.length; i++) {
+//         helper(digits, index + 1, current + letters[i], result, map);
+//     }
+// }
+
+
+// console.log(letterCombinations(''))
+
+
+
+
+
+
+
+
 
 
 
