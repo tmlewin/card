@@ -121,9 +121,9 @@ class Node {
   tree.insert(5);
   tree.insert(9);
   tree.remove(2)
-  tree.remove(5)
+  // tree.remove(5)
  // console.log(JSON.stringify(tree));
-  console.log(tree);
-  console.log(tree.root);
-  //console.log(tree.find(6));
+  // console.log(tree);
+  // console.log(tree.root);
+  // console.log(tree.find(6));
   

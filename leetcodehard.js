@@ -315,7 +315,7 @@
 // digits[i] is a digit in the range ['2', '9'].
 
 
-//   function letterCombinations(digits) {
+//   function letterCombos(digits) {
 //     let map = {
 //         '2': 'abc',
 //         '3': 'def',
@@ -345,7 +345,19 @@
 // }
 
 
-// console.log(letterCombinations(''))
+// console.log(letterCombos(''))
+
+
+// create a node class for a binary search tree
+
+
+
+
+
+    
+
+    
+
 
 
 
