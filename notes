@@ -5,12 +5,51 @@ accessibility with keyboard
 skip to content
 alternate text
 color allocation and contrast
-color scheme and Page layout for seizure avoidance
+color scheme and Page layout for seizure avoidance1 
 
-TestComplete is a UI functional test automation tool that you can use to create and run tests on any web application.
-Run tests in parallel across 2000+ real environments – without any setup or configuration.
-Get real-time access to the latest devices, resolutions, browsers, and operating systems in TestComplete’s device cloud.
+how would my day to day be like as developer at reason one
+2 Are the projects team based?
+3 i would like to work on aproject that makes an impact
 
+they want to see passion , result oriented person, technologies improved functionalities
+constantly keeping it updated with the newest technologies
+
+i brought idea forward and shared it with the group
+
+i want to have clear communication between my leader and myself
+and bring the idea to the team
+
+implementing things to get the highest quality results
+
+Improved planning. A workflow helps you map out the timeframes of each task and gives a broad overview of all of the processes involved. This means you’re able to create an accurate project timeline for both your clients and team members, which leads to improved communication and decision-making throughout the project’s lifecycle. 
+-
+Increased productivity. Things run so much smoother when everyone knows what they should be doing and when. A workflow gives team members the heads up about what’s coming next, so no one is sat twiddling their thumbs. 
+
+Improved consistency. Building a tight structure for your web design projects will help you remain consistent with every single client. This means no more missed steps, which makes it so much easier to maintain a high level of quality throughout everything you create. 
+
+Helps you stay on task. A web design workflow will help you stay on track and hit deadlines every single time. 
+
+Keeps clients happy. When clients know what to expect and when they’ll stop piling into your inbox and will leave you to do what you do best. Why? Because trust is the foundation of every great client relationship, and clear communication and transparency are the quickest way to build it.
+ 
+The Planning Phase. This is where you’ll determine the objectives of the projects as well as the target audience the site will be aimed at.
+
+The Implementation Phase. This is where ideas and visions start to come to life. It’s where the design work happens, where content creation takes place, and where it all comes together.
+
+The Test and Launch Phase. The final stage is testing the design and content and pushing the website live for the world to see. This phase also includes carrying out further improvements once the website is live and you’ve started collecting visitor data. 
+ 
+ 
+ 3. Plan the site structure
+This part of the workflow involves two steps:
+
+Creating a sitemap
+
+Drawing up wireframes
+ 
+ 
+ 
+ 
+ 
+ 
  CSS Sprites are a means of combining multiple images into a single image file for use on a website, to help with performance.
  A closure is the combination of a function and the lexical environment within which that function was declared.
 
@@ -20,6 +59,15 @@ Sprites, compressed images, smaller images.
 Incorporate JavaScript at the bottom of the page.
 Minify CSS, JavaScript, HTML.
 caching and cdn
+
+TestComplete is a UI functional test automation tool that you can use to create and run tests on any web application.
+Run tests in parallel across 2000+ real environments – without any setup or configuration.
+Get real-time access to the latest devices, resolutions, browsers, and operating systems in TestComplete’s device cloud.
+
+
+
+
+
 
 A closure is a sequence of a function bundled together with references to its enclosing state. It gives you access to an outer function’s scope from an inner function. When a function renders a function, that is when the concept of closures becomes more consistent. The rendered function has access to variables that are not in the global scope, but they individually exist in its closure.
 
@@ -32,19 +80,10 @@ Inline-block shows an element as an inline-level block container.
 When I want an element on the left or right of the floating element not to wrap around it, I can utilize clear.
 
 
-1 how would my day to day be like as developer at reason one
-2 Are the projects team based?
-3 i would like to work on aproject that makes an impact
 
 
-they want to see passion , result oriented person, technologies improved functionalities
-constantly keeping it updatreed with the newest technologies
 
-i brought idea forward and shared it with the group
 
-i want to have clear commuiniocation between my leader and myself
-and bring the idea to the team
-
-implementing things to get the highest quality results
+We have a setup with 20 API servers in parallel that require 20 seconds to handle a total of 20 requests. How long would it take to handle a total of 50 requests if we increase the setup to 50 API servers?
 
 

@@ -207,7 +207,64 @@
 // }
 
 
+// arr = [9,2,3,3,5,5,5,1,2,8,8,0]
 
+
+// const dup = (arr) =>{
+//     let newArr = []
+//     for(let i = 0; i < arr.length; i++){
+//         if(!newArr.includes(arr[i])){
+//             newArr.push(arr[i])
+//         }
+
+//     }
+//     return newArr
+// }
+
+
+// console.log(dup(arr))
+// console.log(arr)
+
+
+// function for Trapping Rain Water
+
+
+//  function trap(arr) {
+//     let left = 0;
+
+//     let right = arr.length - 1;
+//     let leftMax = 0;
+//     let rightMax = 0;
+//     let total = 0;
+//     while(left < right){
+//         if(arr[left] < arr[right]){
+//             if(arr[left] > leftMax){
+//                 leftMax = arr[left]
+//             }else{
+//                 total += leftMax - arr[left]
+//             }
+//             left++
+//         }else{
+//             if(arr[right] > rightMax){
+//                 rightMax = arr[right]
+//             }else{
+//                 total += rightMax - arr[right]
+//             }
+//             right--
+//         }
+//     }   
+//     return total
+// }
+
+
+// console.log(trap([0,1,0,2,1,0,1,3,2,1,2,1]))
+
+
+// We have a setup with 20 API servers in parallel that require 20 seconds to handle a total of 20 requests. How long would it take to handle a total of 50 requests if we increase the setup to 50 API servers?
+
+
+
+// Our infrastructure has been infected with a virus that doubles the number of infected machines every hour. At its current rate, given the total number of machines, all machines are expected to be infected 16 hours after the initial infection. How many hours should it therefore take for half of the machines to be infected?  (Hint: you can use the fact that the number of infected machines is equal to the number of infected machines after 16 hours.)   (Hint: you can use the fact that the number of infected machines is equal to the number of infected machines after 16 hours.)        
 
 
 

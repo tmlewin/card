@@ -111,3 +111,18 @@
 -- END
 
 -- execute sp_FilmDuration 90 
+
+-- select * from(
+-- select ename, sal, dense_rank() 
+-- over(order by sal desc)r from Employee) 
+-- where r=&n;
+
+-- write a query that returns the top 5 directors with the highest average salary
+
+
+
+
+
+
+
+
