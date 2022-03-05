@@ -9,7 +9,7 @@ const removeDuplicates = (array) => {
     }
     return empArray
 }
-console.log(removeDuplicates([...array],array))
+console.log(removeDuplicates(array))
 
 
 
