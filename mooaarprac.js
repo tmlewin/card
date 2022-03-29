@@ -41,6 +41,7 @@ var findDuplicate = function(nums) {
     while (true) {
         slow = nums[slow];
         fast = nums[nums[fast]];
+        console.log(slow, fast);
         if (slow === fast) break;
     }
     slow = 0;
@@ -50,6 +51,7 @@ var findDuplicate = function(nums) {
     }
     return slow;
 };
+
 
 
 
