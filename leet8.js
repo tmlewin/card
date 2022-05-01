@@ -23,20 +23,50 @@
 
  function findOddNames(list) {
     let oddNames = [];
-    for (let i = 0; i < list.length; i++) {
+    list.map(developer => {
         let sum = 0;
-        for (let j = 0; j < list[i].firstName.length; j++) {
-            sum += list[i].firstName.charCodeAt(j);
-        }
+        developer.firstName.split('').map(letter => {
+            sum += letter.charCodeAt(0);
+        });
         if (sum % 2 !== 0) {
-            oddNames.push(list[i]);
+            oddNames.push(developer);
         }
-    }
+    });
     return oddNames;
 }
 
+console.log(findOddNames([{ firstName: 'Aba', lastName: 'N.', country: 'Ghana', age: 21 }, { firstName: 'Abb', lastName: 'O.', country: 'nigeria', age: 39 }]));  
 
-console.log(findOddNames([{ firstName: 'Aba', lastName: 'N.', country: 'Ghana', age: 21 }, { firstName: 'Abb', lastName: 'O.', country: 'nigeria', age: 39 }]));   
+
+
+//create a test for findOddNames  function
+
+
+// function testFindOddNames() {
+//     var list1 = [
+//         { firstName: 'Aba', lastName: 'N.', country: 'Ghana', age: 21 },
+//         { firstName: 'Abb', lastName: 'O.', country: 'Niagara', age: 39 }
+//     ];
+//     var list2 = [
+//         { firstName: 'Aba', lastName: 'N.', country: 'Ghana', age: 21 },
+//         { firstName: 'Aba', lastName: 'P.', country: 'Nigeria', age: 27 }
+//     ];
+
+//     if (findOddNames(list1).length === 1 && findOddNames(list1)[0].firstName === 'Abb') {
+//         console.log('Test 1 passed');
+//     } else {
+//         console.log('Test 1 failed');
+//     }
+
+//     if (findOddNames(list2).length === 0) {
+//         console.log('Test 2 passed');
+//     } else {
+//         console.log('Test 2 failed');
+//     }
+// }
+
+
+// testFindOddNames();
 
 
 
