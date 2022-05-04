@@ -131,6 +131,34 @@ class LinkedList{
         }
     }
     
+    //Split the  linked list given a pivot value
+    split(pivot) {
+        let current = this.head;
+        let beforePivot = new LinkedList();
+        let afterPivot = new LinkedList();
+        while(current) {
+            if(current.element < pivot) {
+                beforePivot.append(current.element);
+            } else {
+                afterPivot.append(current.element);
+            }
+            current = current.next;
+        }
+        return [beforePivot, afterPivot];
+    }
+
+    //Find the middle of a linked list. Now do it while only going through the list once.
+    findMiddle() {
+        let slow = this.head;
+        let fast = this.head;
+        while(fast && fast.next) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+
+    
     
 
 }

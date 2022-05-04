@@ -6,28 +6,28 @@
 
 //[Javascript] Easy to understand code, backtracking
 
-var minimumTimeRequired = function (A, k) {
-    const N = A.length;
-    let res = Infinity;
-    const worker = Array(k).fill(0);
+// var minimumTimeRequired = function (A, k) {
+//     const N = A.length;
+//     let res = Infinity;
+//     const worker = Array(k).fill(0);
   
-  const dfs = (idx = 0) => {
-      if (idx === N) {
-        res = Math.min(res, Math.max(...worker));
-        return;
-      }
+//   const dfs = (idx = 0) => {
+//       if (idx === N) {
+//         res = Math.min(res, Math.max(...worker));
+//         return;
+//       }
   
-      for (let i = 0; i < k; i++) {
-        if (worker[i] + A[idx] > res) continue;
-        worker[i] += A[idx];
-        dfs(idx + 1);
-        worker[i] -= A[idx];
-        if (!worker[i]) break;
-      }
-    };
-    dfs();
-    return res;
-  };
+//       for (let i = 0; i < k; i++) {
+//         if (worker[i] + A[idx] > res) continue;
+//         worker[i] += A[idx];
+//         dfs(idx + 1);
+//         worker[i] -= A[idx];
+//         if (!worker[i]) break;
+//       }
+//     };
+//     dfs();
+//     return res;
+//   };
 
 
 //   Find minimum time to finish all jobs with given constraints
@@ -138,10 +138,10 @@ var minimumTimeRequired = function (A, k) {
         return (ans * T);
     }
      
-    let job = [10, 7, 8, 12, 6, 8];
+    let job = [3, 1, 1, 3, 1, 0,1];
     let n = job.length;
     let k = 4, T = 5;
-    document.write(findMinTime(k, T, job, n));
+    console.log(findMinTime(k, T, job, n));
  
 
     //TimeComplexity: O(n*k)
