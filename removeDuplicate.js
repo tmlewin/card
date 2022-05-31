@@ -7,6 +7,7 @@ const dupArray = (arr) =>{
         if(uniqueValues.has(arr[i]))
             return true
             uniqueValues.add(arr[i])
+           
 
         
        
@@ -15,6 +16,7 @@ const dupArray = (arr) =>{
 
     }
     return false
+   
     
 }
 console.log(dupArray(arrs))

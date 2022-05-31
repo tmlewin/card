@@ -15,6 +15,7 @@ function isTriplet (ar, n){
     let i = 0;
     let j = 1;
     let k = 2;
+    
     while (i < n){
         while (j < n){
             while (k < n){
@@ -33,8 +34,10 @@ function isTriplet (ar, n){
     return false;
 }
 
+let arr = [10, 4, 6, 12, 5]
+let n = arr.length;
 
- console.log(isTriplet([10, 4, 6, 12, 5], 5));
+ console.log(isTriplet(arr, n));
 
 
  // Time Complexity: O(n^2)
