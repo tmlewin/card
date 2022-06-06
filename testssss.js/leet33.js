@@ -1,56 +1,54 @@
-// Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+// A valid number can be split up into these components (in order):
 
-// Return the running sum of nums.
+// A decimal number or an integer.
+// (Optional) An 'e' or 'E', followed by an integer.
+// A decimal number can be split up into these components (in order):
+
+// (Optional) A sign character (either '+' or '-').
+// One of the following formats:
+// One or more digits, followed by a dot '.'.
+// One or more digits, followed by a dot '.', followed by one or more digits.
+// A dot '.', followed by one or more digits.
+// An integer can be split up into these components (in order):
+
+// (Optional) A sign character (either '+' or '-').
+// One or more digits.
+// For example, all the following are valid numbers: ["2", "0089", "-0.1", "+3.14", "4.", "-.9", "2e10", "-90E3", "3e+7", "+6e-1", "53.5e93", "-123.456e789"], while the following are not valid numbers: ["abc", "1a", "1e", "e3", "99e2.5", "--6", "-+3", "95a54e53"].
+
+// Given a string s, return true if s is a valid number.
 
  
 
 // Example 1:
 
-// Input: nums = [1,2,3,4]
-// Output: [1,3,6,10]
-// Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
+// Input: s = "0"
+// Output: true
 // Example 2:
 
-// Input: nums = [1,1,1,1,1]
-// Output: [1,2,3,4,5]
-// Explanation: Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1].
+// Input: s = "e"
+// Output: false
 // Example 3:
 
-// Input: nums = [3,1,2,10,1]
-// Output: [3,4,6,16,17]
+// Input: s = "."
+// Output: false
  
 
 // Constraints:
 
-// 1 <= nums.length <= 1000
-// -10^6 <= nums[i] <= 10^6
+// 1 <= s.length <= 20
+// s consists of only English letters (both uppercase and lowercase), digits (0-9), plus '+', minus '-', or dot '.'.
 
 
-/**
- * @param {number[]} nums
- * @return {number[]}
- * Runtime: 84 ms, faster than 100.00% of JavaScript online submissions for Running Sum of 1d Array.
- * Memory Usage: 37.8 MB, less than 100.00% of JavaScript online submissions for Running Sum of 1d Array.
-    */
-var runningSum = function(nums) {
-    let sum = 0;
-    for (let i = 0; i < nums.length; i++) {
-        sum += nums[i];
-        nums[i] = sum;
-        
-        
-    }
-    return nums;
-    
-    
+// Solution 1:
+
+
+ var isNumber = function(s) {
+    return /^[+-]?(?:(?:\d+\.\d*)|(?:\d+)|(?:\.\d+))(?:[eE][+-]?\d+)?$/.test(s);
+   
+     
 }
 
-
- 
-
-
-
-
-
-console.log(runningSum([1,2,3,4]));
-
+console.log(isNumber("0"));
+console.log(isNumber("e"));
+console.log(isNumber("."));
+console.log(isNumber("+"));
